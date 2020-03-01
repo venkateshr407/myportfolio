@@ -13,7 +13,8 @@
     "react-scripts": "3.4.0",
     "react-sticky-footer": "^0.1.0-rc3",
     "reactstrap": "^8.4.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "styled-loaders-react": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

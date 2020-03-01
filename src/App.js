@@ -1,4 +1,4 @@
-import React  from 'react';
+import React,{Component}  from 'react';
 import Jumbotron from './Components/Jumbotron';
 import Infotext from './Components/Infotext';
 import Cards from './Components/Cards';
@@ -13,16 +13,17 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 
-function App(){
-      return( 
+
+class App extends Component{
+
+  render(){
+      return(  
             <Router>
               <Nav1/>
-            <div>
-               <Route exact path="/" component={Home} />
-               </div>
-              
-          
-            <div>
+                <div>
+                  <Route exact path="/" component={Home} />
+                </div>
+              <div>
              
                <Route exact path="/home" component={Jumbotron} />  
                <Route exact path="/home" component={Infotext} />
@@ -34,10 +35,13 @@ function App(){
                <Route path="/about" component={About}/>
               <Route path="/about" component={Layout} /> 
               <Route path="/about" component={StickyFooter1} />           
-          </div>
-              </Router>
+            </div>
+         </Router>
+           
       );
+
   }
+}
 
 
 

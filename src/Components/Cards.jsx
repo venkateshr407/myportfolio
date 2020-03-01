@@ -16,7 +16,7 @@ class Cards extends Component {
         // to={{opacity:1}}>
         // {props=>(
         //     <div style={props}>
-            <div className="container-fluid-flex justify-content-center">
+            <div className="container-fluid-flex justify-content-center ">
                 <div className="row">
                     <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img1} title="Man at Work"/><br/></div>
                     <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img2} title="Ooty,Tamil Nadu"/><br/></div>

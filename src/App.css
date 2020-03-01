@@ -15,7 +15,17 @@ html{
   scroll-behavior: smooth;
 }
 
-
+main{
+  background-color: var(--bg-color);
+  color:var(--text-color);
+}
+#dark-mode-toggle:checked + main {
+  --bg-color:#26242E;
+  --text-color:#FFF;
+}
+body{
+  background: rgb(23, 23, 23) 
+}
 .App {
   height: 100vh;
   display: flex;
@@ -51,12 +61,12 @@ html{
   font-weight:300;
   text-align: left;
   padding: 0;
-  color: #3f3e3e;
+  color: #8d8d8d;
 }
 .introtext h1{
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
-  color: #5a5757;
+  color: #ffffff;
   padding: 0.5rem;
   font-size: 50px auto;
   margin: 0;
@@ -70,18 +80,22 @@ html{
   font-size: 12px;
   margin-left: 0rem;
   font-weight: 300;
+  color: #8d8d8d;
 }
 .about{
   margin: 2rem;
-  color: rgb(38, 59, 64);
+  color: rgb(255, 255, 255);
   float: left;
 }
 .about p{
  font-size: 14px;
+ color: rgb(183, 183, 183)
 }
 .header2{
   font-size: 25px;
   font-weight: 700;
+color: aqua;
+margin-bottom: 2rem;
 }
 .header{
   font-size: 25px;
@@ -104,20 +118,23 @@ html{
     margin-top: 1.5rem;
     border-radius: 0px;
     border-radius: 0px;
-background: #f8f8f8;
+    background: rgb(23, 23, 23) ;
 box-shadow:  5px 5px 4px #e4e4e4, 
              -5px -5px 4px #ffffff;
    
     margin: 1rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
   }
 .box h3{
   font-size: 12px;
   text-align: left;
   padding: 1rem;
+  color: rgb(183, 183, 183)
 }
 .boxspan{
   font-weight: 800;
+  color: azure;
 }
 .skills{
   margin-top: 5rem;
@@ -126,10 +143,12 @@ box-shadow:  5px 5px 4px #e4e4e4,
   font-size: 16px;
   font-weight: 600;
   margin-top: 2rem;
+
 }
 .studied p{
   font-size: 12px;
   font-weight: 500;
+  color: rgb(209, 209, 209);
 }
 .academy{
   font-size: 10px;
@@ -137,25 +156,32 @@ box-shadow:  5px 5px 4px #e4e4e4,
 }
 .Achievements{
   margin-top: 5rem;
-  color: rgb(38, 59, 64);
+  /* color: rgb(38, 59, 64); */
 }
 .header22{
   font-size: 25px;
   font-weight: 700;
+  margin-bottom: 2rem;
+  color: aqua;
 }
 .achieved{
   margin-left: 2rem;
-  color: rgb(38, 59, 64);
+  /* color: rgb(38, 59, 64); */
+  color: rgb(255, 255, 255);
 }
 .listed p{
   font-size: 12px;
   margin-bottom: 0;
-  color: rgb(38, 59, 64);
+  color: rgb(255, 255, 255);
 }
 
 .inline{
   font-weight: 800;
-  color: rgb(38, 59, 64);
+  color: rgb(81, 133, 163);
+}
+.inline1{
+  font-weight: 800;
+  color: rgb(243, 243, 243);
 }
 
 .waytogallery{
@@ -165,7 +191,7 @@ box-shadow:  5px 5px 4px #e4e4e4,
 .header222{
   font-size: 25px;
   font-weight: 700;
-  color: rgb(38, 59, 64);
+  color: aqua;
 }
 .image{
   width: 100%;
@@ -244,6 +270,15 @@ margin-bottom: 1.5rem;
   box-shadow:5px 10px 20px 1px rgba(0,0,0,0.253)!important;
  
 }
+.row{
+  color: aliceblue;
+}
+.text-muted{
+  color: antiquewhite;
+}
+.lead{
+  color: rgb(114, 114, 114);
+}
 /* .map{
   height: 40vh;
   width: 100%;
@@ -252,6 +287,9 @@ margin-bottom: 1.5rem;
 } */
 h5{
   font-size: 16px;
+  font-weight: 700;
+  color: rgb(209, 209, 209);
+  
 }
 
 
@@ -261,6 +299,17 @@ h5{
   .slide-container {
     width: 70%;
     margin: auto; }
+    .container{
+      width: 100%;
+      margin: 0 auto;
+    }
+    #section-1{
+      margin: 0;
+      padding: 0;
+    }
+    .fadeInUp{
+      font-size: 20px;
+    }
   
   /* h3 {
     text-align: center; 
@@ -314,14 +363,25 @@ h5{
     box-shadow:5px 10px 20px 1px rgba(0,0,0,0.253)!important;
    
 }
+h1{
+  color: antiquewhite;
+}
+.card{
+  background-color: black;
+}
 .card-body{
   padding: 2rem 0  !important;
+  background: rgb(23, 23, 23) 
 
 }
 .card-text{
   font-size: .9rem;
   padding:0.4rem 1.9rem;
+  color: #8d8d8d;
   
+}
+.card-title{
+  color: #8d8d8d;
 }
 .container-fluid .row{
   padding-top: 6rem;
@@ -330,9 +390,7 @@ h5{
   animation-iteration-count: 1;
 }
 .overflow{
-  overflow: hidden;
- 
-  
+  overflow: hidden;  
 }
 .card-img-top{
   transform: scale(1);
@@ -350,7 +408,15 @@ h5{
 .ml-auto{
   font-family: 'Questrial', sans-serif;
 }
-
+.display-3{
+  color: rgb(255, 255, 255);
+}
+.jumbotron-fluid{
+  background-color: rgb(253, 123, 76);
+}
+.fadeInUp{
+  color: antiquewhite;
+}
 /* .col{
   width: 00px;
   height:auto;
@@ -471,7 +537,7 @@ padding: center;
   justify-content: center;
 }
 .media a{
-  color: #2d00f8;
+  color: #6f55e4;
 
 }
 
@@ -505,7 +571,7 @@ li,a:hover{
 
 .info{
   padding: 10vh;
-  background-color: rgb(61, 57, 57);
+  background-color: rgb(146, 146, 146);
   color: #f3efef;
   background:cover;
 }
