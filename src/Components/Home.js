@@ -11,6 +11,7 @@ export default class Home extends Component {
         return (
             <div className="all">
             <div className="display">
+                <div className="mainheading">
                <div className="container-main">
                    <img src={theImg} className="venky"/>
                </div>
@@ -19,12 +20,14 @@ export default class Home extends Component {
                    <br/></span> VENKATESH.R</h1>
                    <h3 className="introheader">Landscape photographer & Web developer</h3>
                </div>
+               
                <div className="media">
                 <ul>
                     <li><a href="https://instagram.com/venky__creations/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                     <li><a href="https://github.com/venkateshr407"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/venkatesh-r-0571a4178"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
+            </div>
             </div>
                <div className="about" data-aos="fade-up">
                    <h2 className="header2">About me</h2>

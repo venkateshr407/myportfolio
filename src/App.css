@@ -73,6 +73,11 @@ body{
   font-weight: 500;
   
 }
+.mainheading{
+  background: rgb(0, 0, 0);
+  background-size: cover;
+  
+}
 .introheader{
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
@@ -94,7 +99,7 @@ body{
 .header2{
   font-size: 25px;
   font-weight: 700;
-color: aqua;
+color:#5f63bd;
 margin-bottom: 2rem;
 }
 .header{
@@ -162,7 +167,7 @@ box-shadow:  5px 5px 4px #e4e4e4,
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 2rem;
-  color: aqua;
+  color: #5f63bd;
 }
 .achieved{
   margin-left: 2rem;
@@ -177,13 +182,16 @@ box-shadow:  5px 5px 4px #e4e4e4,
 
 .inline{
   font-weight: 800;
-  color: rgb(81, 133, 163);
+  color: #5f63bd;
 }
-.inline1{
+.inline1 {
   font-weight: 800;
-  color: rgb(243, 243, 243);
+  font-size: 20px;
+  color: rgb(243, 243, 243)
 }
-
+a{
+  color: rgb(255, 255, 255);
+}
 .waytogallery{
   margin-top: 3rem;
 
@@ -191,7 +199,7 @@ box-shadow:  5px 5px 4px #e4e4e4,
 .header222{
   font-size: 25px;
   font-weight: 700;
-  color: aqua;
+  color:#5f63bd;
 }
 .image{
   width: 100%;
@@ -249,15 +257,13 @@ box-shadow:  5px 5px 4px #e4e4e4,
   grid-gap: 0.5rem;
   margin-top: 2rem;
 }
-.icons i{
-  size: 5rem;
-  font-size: 20px;
+.icons i {
+  font-size: 25px;
   color: rgb(240, 177, 6);
 }
-.icons h3{
-font-size: 12px;
-text-align: left;
-margin-bottom: 1.5rem;
+.icons {
+font-size: 20px;
+margin-bottom: 1rem;
   
 }
 .pic:hover{
@@ -640,6 +646,10 @@ li,a:hover{
           margin:0;
           padding: 0%;
         }
+        .mainheading{
+          background: none;
+        }
+
         .display{
           height: 90vh;
           margin: auto;
@@ -766,6 +776,7 @@ li,a:hover{
       }
     }
      @media only screen and (min-width:770px) and (max-width:1024px){
+    
       .grid-container{
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -787,6 +798,7 @@ li,a:hover{
     
  
    @media only screen  and (min-width:800px) and (max-width:1023px) {
+     
     .introtext h1{
       margin: 0 auto;
       font-size: 3rem;
