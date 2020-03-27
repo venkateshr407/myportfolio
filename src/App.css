@@ -74,7 +74,7 @@ body{
   
 }
 .mainheading{
-  background: rgb(0, 0, 0);
+ background-color: black;
   background-size: cover;
   
 }
@@ -131,6 +131,12 @@ box-shadow:  5px 5px 4px #e4e4e4,
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
+  .grid-skills{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+  }
 .box h3{
   font-size: 12px;
   text-align: left;
@@ -148,6 +154,7 @@ box-shadow:  5px 5px 4px #e4e4e4,
   font-size: 16px;
   font-weight: 600;
   margin-top: 2rem;
+  padding-left: 1rem;
 
 }
 .studied p{
@@ -211,6 +218,17 @@ a{
   animation-duration: 3s;
   animation-iteration-count: 1;
 }
+.grid-skills{
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+
+}
+.skillset-list{
+  list-style-type:disc;
+  margin-left: 2rem;
+}
 .pic{
   position: relative;
 }
@@ -237,6 +255,7 @@ a{
   opacity: 0.5;
   border-radius: 5%;
 }
+
 .grid-container{
   display: grid;
   grid-template-columns: auto auto;
@@ -248,14 +267,16 @@ a{
 .contact{
   margin: 0 auto;
   margin-top: 3rem;
- 
+  padding-left: 0rem;
 }
+
 .contacts{
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-gap: 0.5rem;
   margin-top: 2rem;
+  padding:0rem;
 }
 .icons i {
   font-size: 25px;
@@ -770,6 +791,14 @@ li,a:hover{
         grid-gap: 10px;
         margin-top: 2rem;
        }
+      
+      .grid-skills{
+       display: grid;
+       grid-template-columns: auto auto;
+       grid-template-rows: auto;
+       grid-gap: 2rem;
+       margin-left: 2rem;
+      }
      
       h5{
         font-size: 16px;
@@ -826,6 +855,10 @@ li,a:hover{
         font-size: 3rem;
         padding-top: 10rem;
       }
+      .studied h2{
+        margin-top:0rem;
+        font-size: 1.3rem;
+      }
       .grid-container{
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -840,6 +873,19 @@ li,a:hover{
         grid-gap: 10px;
         margin-top: 2rem;
        }
+       .grid-skills{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-gap: 2rem;
+        margin-left:5rem;
+        
+      }
+      .grid-combo{
+        display: grid;
+        grid-template-columns:auto auto;
+        grid-template-rows: auto;
+      }
       
     }
     @media only screen  and (min-width:2111px) and (max-width:5000px){

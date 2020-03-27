@@ -43,6 +43,49 @@ at a professional level.</h3></div>
                         <div className="box" data-aos="fade-up"><h3><span className="boxspan">Photography in Landscape:</span> capturing amazing Landscape photo's.</h3></div>
                     </div> 
                     </section>
+                   
+                    <div className="skills" data-aos="fade-up">
+                        <h2 className="header2"><i class="fa fa-laptop"></i>  Skillset</h2>
+                        <section className="studied grid-skills">
+                            <div className="grid-skill">
+                                <h2>DEVELOPMENT</h2><br/>
+                                <ul className="skillset-list">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>React</li>
+                                    <li>GIT</li>
+                                </ul>
+                            </div>
+                            <div className="grid-skill">
+                            <h2>PHOTOGRAPHY & MOTION</h2>
+                            <br/>
+                            <ul className="skillset-list">
+                                <li>Abode Lightroom</li>
+                                <li>Abode Premiere pro</li>
+                                <li>Abode After Effects</li>
+                            </ul>
+                        </div>
+                        <div className="grid-skill">
+                            <h2>DESIGN</h2><br/>
+                            <ul className="skillset-list">
+                                <li>Abode XD</li>
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                        <div className="grid-skill">
+                            <h2>TRAING COURSE</h2><br/>
+                            <ul className="skillset-list">
+                                <li>Web development</li>
+                                <li>Java full stack</li>
+                            </ul>
+                        </div>
+                        </section>
+                    </div>
+
+                    
+    
+                    <section className="grid-combo">
                     <div className="skills" data-aos="fade-up">
                         <h2 className="header2"><i class="fa fa-graduation-cap"></i>  Education</h2>
                         <section className="studied">
@@ -64,6 +107,7 @@ at a professional level.</h3></div>
                                 </ul>
                         </section>
                     </div>
+                    </section>
                     <div className="waytogallery" data-aos="fade-up"><h2 className="header222"><i class="fa fa-camera"></i> Photography</h2>
                     <p>categorie's of Photography !</p>
                        <div className="grid-container">
