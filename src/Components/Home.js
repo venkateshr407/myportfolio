@@ -46,9 +46,9 @@ at a professional level.</h3></div>
                    
                     <div className="skills" data-aos="fade-up">
                         <h2 className="header2"><i class="fa fa-laptop"></i>  Skillset</h2>
-                        <section className="studied grid-skills">
+                        <section className="studied2 grid-skills">
                             <div className="grid-skill">
-                                <h2>DEVELOPMENT</h2><br/>
+                                <h3>DEVELOPMENT</h3><br/>
                                 <ul className="skillset-list">
                                     <li>HTML</li>
                                     <li>CSS</li>
@@ -58,7 +58,7 @@ at a professional level.</h3></div>
                                 </ul>
                             </div>
                             <div className="grid-skill">
-                            <h2>PHOTOGRAPHY & MOTION</h2>
+                            <h3>PHOTOGRAPHY & MOTION</h3>
                             <br/>
                             <ul className="skillset-list">
                                 <li>Abode Lightroom</li>
@@ -67,14 +67,14 @@ at a professional level.</h3></div>
                             </ul>
                         </div>
                         <div className="grid-skill">
-                            <h2>DESIGN</h2><br/>
+                            <h3>DESIGN</h3><br/>
                             <ul className="skillset-list">
                                 <li>Abode XD</li>
                                 <li>Figma</li>
                             </ul>
                         </div>
                         <div className="grid-skill">
-                            <h2>TRAING COURSE</h2><br/>
+                            <h3>TRAING COURSE</h3><br/>
                             <ul className="skillset-list">
                                 <li>Web development</li>
                                 <li>Java full stack</li>
