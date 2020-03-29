@@ -99,7 +99,7 @@ body{
 .header2{
   font-size: 25px;
   font-weight: 800;
-color:#7e35f3;
+color:#04a3e2;
 margin-bottom: 2rem;
 }
 .header{
@@ -179,7 +179,7 @@ box-shadow:  5px 5px 4px #e4e4e4,
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 2rem;
-  color:#7e35f3;
+  color:#04a3e2;
 }
 .achieved{
   margin-left: 2rem;
@@ -194,7 +194,8 @@ box-shadow:  5px 5px 4px #e4e4e4,
 
 .inline{
   font-weight: 800;
-  color:#7e35f3;
+  color:#04a3e2;
+  font-style: oblique;
 }
 .inline1 {
   font-weight: 800;
