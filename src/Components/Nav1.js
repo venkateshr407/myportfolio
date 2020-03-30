@@ -9,6 +9,7 @@ const Styles = styled.div `
 }
 .navbar-brand, .navbar-nav .nav-link{
   color: white;
+  font-size:1rem;
   &:hover{
     color:white;
   }

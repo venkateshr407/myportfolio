@@ -276,10 +276,7 @@ a{
   /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
   padding: 1rem;
   border-radius: 2%;
-  background: #8A2387;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 }
 
 .header2c{
@@ -460,12 +457,21 @@ h1{
 }
 .display-3{
   color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
 }
 .jumbotron-fluid{
-  background-color: rgb(253, 123, 76);
+  background: #e96443;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+
 .fadeInUp{
+  font-family: 'Montserrat', sans-serif;
   color: antiquewhite;
+
 }
 /* .col{
   width: 00px;
@@ -838,11 +844,12 @@ li,a:hover{
       }
       .contacts{
         display: grid;
-        grid-template-columns: auto auto auto ;
+        grid-template-columns: auto auto ;
         grid-template-rows: auto;
         grid-gap: 10px;
         margin-top: 2rem;
        }
+      
      }
 
   
@@ -865,7 +872,7 @@ li,a:hover{
     }
     .contacts{
       display: grid;
-      grid-template-columns: auto auto auto ;
+      grid-template-columns: auto  ;
       grid-template-rows: auto;
       grid-gap: 10px;
       margin-top: 2rem;
