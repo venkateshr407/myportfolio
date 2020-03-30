@@ -136,15 +136,15 @@ at a professional level.</h3></div>
                         
                    </div>
                    <div className="contact" data-aos="fade-up">
-                    <h2 className="header2"><i class="fa fa-address-card"></i> Contact</h2>
+                    <h2 className="header2c"><i class="fa fa-address-card"></i> Contact</h2>
                     {/* <img src={theImg5} className="map" /> */}
                     <section className="contacts">
                         <div className="icons">
-                            <h3 className="header3"><h5><i class="fa fa-paper-plane"></i> <span className="inline1">  E-mail :</span><a href="mailto:venkateshr590@gmail.com">  venkateshr590@gmail.com</a></h5></h3></div>
+                            <h3 className="header3"><h5><i class="fa fa-paper-plane"></i> <span className="inline1">  E-mail </span><br/><p className="contactpara"><a href="mailto:venkateshr590@gmail.com">  venkateshr590@gmail.com</a></p></h5></h3></div>
                         <div className="icons">
-                            <h3 className="header3"><h5><i class="fa fa-phone"></i><span className="inline1"> Phone :</span> +91 77957 13898 </h5></h3></div>
+                            <h3 className="header3"><h5><i class="fa fa-phone"></i><span className="inline1"> Phone </span><br/> <p className="contactpara">+91 77957 13898 </p></h5></h3></div>
                         <div className="icons">
-                            <h3 className="header3"><h5><i class="fa fa-map-marker"></i>  <span className="inline1">  Address :</span>   Konkani Doddi, Ramanagara, Karnataka 562159.</h5></h3></div>
+                            <h3 className="header3"><h5><i class="fa fa-map-marker"></i>  <span className="inline1">  Address </span><br/>  <p className="contactpara"> Konkani Doddi, Ramanagara, Karnataka 562159.</p></h5></h3></div>
                     </section>
                 </div>
     
