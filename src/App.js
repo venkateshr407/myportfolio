@@ -13,7 +13,6 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 
-
 class App extends Component{
 
   render(){
@@ -23,7 +22,7 @@ class App extends Component{
                 <div>
                   <Route exact path="/" component={Home} />
                 </div>
-              <div>
+          <div>
              
                <Route exact path="/home" component={Jumbotron} />  
                <Route exact path="/home" component={Infotext} />
