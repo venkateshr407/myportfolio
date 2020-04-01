@@ -28,7 +28,7 @@ export const Heading = (props) => (
 <br/>
 <div className="row featurette" data-aos="fade-right" data-aos-delay="200">
  
-          <div className="order-md-9 col-md-5 ">
+          <div className="order-md-7 col-md-5 ">
             <h2 className="featurette-heading">BBCEarth:
              <span className="text-muted"> Hi there, We love this photo and we were wondering if we could use it for BBC Earth social,website or digital ?  </span></h2>
             <p className="lead">Comment via Instagram @BBCEarth</p>
