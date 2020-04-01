@@ -469,15 +469,27 @@ h1{
   font-family: 'Montserrat', sans-serif;
 }
 .jumbotron-fluid{
-  background: #FF512F;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+}
+.row{
+  margin: 0;
+}
+.cardbox{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 2vw;
   
 }
 
 .fadeInUp{
   font-family: 'Montserrat', sans-serif;
   color: antiquewhite;
+  margin-left: 0.5rem;
 
 }
 /* .col{

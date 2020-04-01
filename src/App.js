@@ -24,11 +24,11 @@ class App extends Component{
                 </div>
           <div>
              
-               <Route exact path="/home" component={Jumbotron} />  
-               <Route exact path="/home" component={Infotext} />
-               <Route exact path="/home" component={Cards} />
-               <Route exact path="/home" component={Heading} />
-               <Route exact path="/home" component={StickyFooter1} />
+               <Route exact path="/gallery" component={Jumbotron} />  
+               <Route exact path="/gallery" component={Infotext} />
+               <Route exact path="/gallery" component={Cards} />
+               <Route exact path="/gallery" component={Heading} />
+               <Route exact path="/gallery" component={StickyFooter1} />
 
 
                <Route path="/about" component={About}/>

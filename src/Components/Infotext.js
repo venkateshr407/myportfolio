@@ -7,7 +7,7 @@ const Infotext = (props) => {
     <div>
       <Jumbotron fluid>
         <Container fluid>
-          <h1 className="animated fadeInUp display-3">Welcome to My Gallary</h1>
+          <h1 className="animated fadeInUp display-3">Welcome to My Gallery</h1>
           <p className="animated fadeInUp lead">Hi there,You found some amazing Mobile Photography :) </p>
         </Container>
       </Jumbotron>

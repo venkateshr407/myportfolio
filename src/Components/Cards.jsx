@@ -18,12 +18,12 @@ class Cards extends Component {
         //     <div style={props}>
             <div className="container-fluid-flex justify-content-center ">
                 <div className="row">
-                    <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img1} title="Man at Work"/><br/></div>
-                    <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img2} title="Ooty,Tamil Nadu"/><br/></div>
-                    <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img3} title="Flower"/><br/></div>
-                    <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img4} title="Sunset"/><br/></div>
-                    <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img5} title="Lepakshi,Andhra Pradesh"/><br/></div>
-                    <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img6} title="Niligiris"/><br/></div>
+                    <div className="col-md-4 cardbox" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img1} title="Man at Work"/><br/></div>
+                    <div className="col-md-4 cardbox" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img2} title="Ooty,Tamil Nadu"/><br/></div>
+                    <div className="col-md-4 cardbox" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img3} title="Flower"/><br/></div>
+                    <div className="col-md-4 cardbox" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img4} title="Sunset"/><br/></div>
+                    <div className="col-md-4 cardbox" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img5} title="Lepakshi,Andhra Pradesh"/><br/></div>
+                    <div className="col-md-4 cardbox" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img6} title="Niligiris"/><br/></div>
                 </div>
               </div>
 //  </div>
