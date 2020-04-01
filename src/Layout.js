@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container} from 'react-bootstrap';
 
+
 export const Layout = (props)=>(
       
       <Container>
@@ -12,10 +13,10 @@ export const Layout = (props)=>(
       <div className="wpb_wrapper">
 
 
-        <section id="section-1" className="about p-5 my-3" data-aos="fade-left" data-aos-delay="200">
+        <section id="section-1" className="about p-4 my-3" data-aos="fade-left" data-aos-delay="200">
         <h1>About me:</h1>
         <p>Hi, iam Venkatesh.R ,
-                Student from Dept of Computer Science & Engineering at Ghousia College of Engineering,<br/> Interested in Photography:) </p>
+              Landscape Photographer and web developer<br/> Interested in Photography:) </p>
       </section>
       <section id="section-1" className="about bg-faded p-5 my-3" data-aos="fade-right" data-aos-delay="200">
         <h1>About Website :</h1>
