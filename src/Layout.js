@@ -13,21 +13,18 @@ export const Layout = (props)=>(
       <div className="wpb_wrapper">
 
 
-        <section id="section-1" className="about p-4 my-3" data-aos="fade-left" data-aos-delay="200">
+        <section id="section-1" className="aboutheading" data-aos="fade-left" data-aos-delay="200">
         <h1>About me:</h1>
-        <p>Hi, iam Venkatesh.R ,
+        <p>Hi, iam <a href="/">Venkatesh.R </a>,
               Landscape Photographer and web developer<br/> Interested in Photography:) </p>
       </section>
-      <section id="section-1" className="about bg-faded p-5 my-3" data-aos="fade-right" data-aos-delay="200">
-        <h1>About Website :</h1>
-        <p>"This Website doesn't perform any user interaction :)  "<br/>
-        This website is just to view the picures (My Gallery), which captured through a smartphone,
-            This website is developed and maintained by myself.</p>
+      <section id="section-1" className="aboutheading" data-aos="fade-right" data-aos-delay="200">
+        <h1>About Portfolio :</h1>
+        <p>" This portfolio doesn't perform any user interaction :)  "<br/>
+        This portfolio is just to view the picture's (My Gallery), which captured through a smartphone,
+            This portfolio is developed and maintained by myself.</p>
       </section>
-      <section id="section-1" className="about bg-faded p-5 my-3" data-aos="fade-left" data-aos-delay="200">
-        <h1>For use:</h1>
-        <p>The website is designed to my personal use </p>
-      </section>
+
         
 		</div>
     </div>

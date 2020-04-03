@@ -6,14 +6,20 @@ import theImage from '../images/tirucopy1.jpg';
 import theImage1 from '../images/featured.jpg';
 import theImage2 from '../images/intropic1.jpg';
 
+
 export const Heading = (props) => (
 
 <Container>
         {props.children}
         <br/>
-<center><h1> Achievements</h1></center>
-<br/>
-   
+        <section className="galleryachive">
+          <div className="gallerydiv">
+          <h1 className="gallerytext">Featured in social media.</h1>
+          <p className="gallerypara">this made me to motivate in my photography.</p>
+          </div>
+        </section>
+        <br/>
+
         <div className="row featurette" data-aos="fade-left" data-aos-delay="200">
           <div className="col-md-7">
             <h2 className="featurette-heading">Motorolain:
