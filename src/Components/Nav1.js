@@ -11,7 +11,7 @@ const Styles = styled.div `
 .navbar-brand, .navbar-nav .nav-link{
   margin:0;
   color:white;
-  padding:8px;
+  padding-right:5px;
   &:hover{
     color:white;
   }

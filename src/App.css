@@ -466,16 +466,15 @@ h1{
   font-family: 'Questrial', sans-serif;
 }
 .display-3{
-  color: rgb(255, 255, 255);
   font-size: 4rem;
   font-weight: 900;
   font-family: 'Montserrat', sans-serif;
 }
 .jumbotron-fluid{
-  background: #780206;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 .row{
   margin: 0;
@@ -491,7 +490,7 @@ h1{
 
 .fadeInUp{
   font-family: 'Montserrat', sans-serif;
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
   margin-left: 0.5rem;
 
 }
