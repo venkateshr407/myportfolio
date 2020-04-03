@@ -9,8 +9,9 @@ const Styles = styled.div `
   background-color: rgb(8, 5, 24)
 }
 .navbar-brand, .navbar-nav .nav-link{
-  color: white;
   margin:0;
+  color:white;
+  padding:8px;
   &:hover{
     color:white;
   }

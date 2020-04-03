@@ -126,7 +126,7 @@ at a professional level.</h3></div>
                                 <h4>Travelling</h4>
                                 <p>Roadways</p>
                             </div></div>
-                           <div className="pic"><a href="/home"><img src={theImg4} className="imagelink" value="for more" /> </a>  <div class="text-block">
+                           <div className="pic"><a href="/gallery"><img src={theImg4} className="imagelink" value="for more" /> </a>  <div class="text-block">
                                 <h4>For more</h4>
                                 <p>Click here this image !</p>
                             </div>
