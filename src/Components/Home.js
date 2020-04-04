@@ -128,13 +128,14 @@ at a professional level.</h3></div>
                             </div></div>
                            <div className="pic"><a href="/gallery"><img src={theImg4} className="imagelink" value="for more" /> </a>  <div class="text-block">
                                 <h4>For more</h4>
-                                <p>Click here this image !</p>
+                                <p>Click this image !</p>
                             </div>
                         </div>
 
                        </div>
                         
                    </div>
+                   <section className="sectioncontact">
                    <div className="contact" data-aos="fade-up">
                     <h2 className="header2c"><i class="fa fa-address-card"></i> Contact</h2>
                     {/* <img src={theImg5} className="map" /> */}
@@ -147,6 +148,7 @@ at a professional level.</h3></div>
                             <h3 className="header3"><h5><i class="fa fa-map-marker"></i>  <span className="inline1">  Address </span><br/>  <p className="contactpara"> Konkani Doddi, Ramanagara, Karnataka 562159.</p></h5></h3></div>
                     </section>
                 </div>
+                </section>
     
                    </div>
             </div>

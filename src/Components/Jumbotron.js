@@ -29,14 +29,19 @@ const Styles = styled.div`
   animation-delay: 3s;
   animation-duration: 3s;
   animation-iteration-count: 1;
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+.bcc{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
 } `
  const Jumbotron = () => (
    <Styles>
      <Jumbo fluid className="jumbo" data-aos="zoom-in" data-aos-delay="200">
        <div className="animated fadeInUpBig overlay  col-md-8">
          <Container className="fontforintro" data-aos="fade-up-left" data-aos-delay="200"><h1>Welcome</h1>
-         <p>@bbcearth: Hi there, We love this photo and we were wondering if we could use it for BBC Earth social,website or digital ? 
+         <p className="bbc">@bbcearth: Hi there, We love this photo and we were wondering if we could use it for BBC Earth social,website or digital ? 
          </p>
 
          </Container>

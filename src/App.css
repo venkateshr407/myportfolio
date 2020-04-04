@@ -24,7 +24,7 @@ main{
   --text-color:#FFF;
 }
 body{
-  background: rgb(11, 9, 26); 
+  background-color: #110321;
 }
 .App {
   height: 100vh;
@@ -107,8 +107,8 @@ background-color: rgb(8, 5, 24);
 .header2{
   font-size: 25px;
   font-weight: 800;
-color:#7e60c3;
-margin-bottom: 2rem;
+color:#6009a8;
+margin-bottom: 1rem;
 }
 .header{
   font-size: 25px;
@@ -190,7 +190,7 @@ box-shadow:  5px 5px 4px #e4e4e4,
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 2rem;
-  color:#7e60c3;
+  color:#6009a8;
 }
 .achieved{
   margin-left: 2rem;
@@ -202,28 +202,32 @@ box-shadow:  5px 5px 4px #e4e4e4,
   margin-bottom: 0;
   color: rgb(255, 255, 255);
 }
+.skillset-list li{
+  color: rgb(146, 146, 146);
+}
 
 .inline{
   font-weight: 800;
-  color:#7e60c3;
+  color:#6009a8;
 }
 .inline1 {
   font-weight: 800;
   font-size: 20px;
-  color: rgb(243, 243, 243);
+  color:#7b1ec7;
   padding-left: 0.5rem;
 }
 a{
   color: rgb(255, 255, 255);
 }
-.waytogallery{
+div .waytogallery{
   margin-top: 3rem;
+  padding: 1rem;
 
 }
 .header222{
   font-size: 25px;
   font-weight: 700;
-  color:#7e35f3;
+  color:#6009a8;
 }
 .image{
   width: 100%;
@@ -281,13 +285,18 @@ a{
   margin-top: 2rem;
 }
 .contact{
-  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  /* word-wrap: break-word; */
+  flex-wrap: wrap;
+  width: auto;
   margin-top: 3rem;
+  margin-bottom: 3rem;
   padding-left: 0rem;
   /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
   padding: 1rem;
-  border-radius: 2%;
-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  color: blueviolet;
+  /* border-radius: 2%; */
 }
 
 .header2c{
@@ -304,7 +313,7 @@ a{
 }
 .icons i {
   font-size: 25px;
-  color: rgb(248, 213, 115);
+  color: rgb(131, 4, 204);
 }
 .icons {
 font-size: 20px;
@@ -347,7 +356,7 @@ h5{
 }
 .contactpara {
   padding-left: 1.5rem;
-  padding-top: 0.5rem;
+  padding-top: 0.8rem;
 }
 
 /* h3 {
@@ -517,9 +526,9 @@ h1{
   margin: 0rem;
   
   margin-bottom: 2rem;
-  background: #00bf8f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #05b387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #013126, #07755a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #001510, #196b57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
 .gallerytext{
@@ -587,21 +596,6 @@ font-size: 100%;
  /* main of homepage */
 
  main .site-title{
-/* background: #8E2DE2;  fallback for old browsers */
-/* background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to right, #4A00E0, #8E2DE2); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-/* animation: Gradient 15s ease infinite ;
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  justify-content: center; */
-
-  /* background: url('./images/ootycopy1.jpg');
-  background-size: cover;
-  height: 100vh;
-  justify-content: center;
-  display: flex;
-    opacity:0.8; */
     background: linear-gradient(
                      rgba(5, 5, 5, 0.5), 
                      rgba(49, 49, 49, 0.5)),
@@ -710,11 +704,8 @@ li,a:hover{
   padding: 1pt;
   margin: 1pt;
   font-size: large;
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #ffff;
-}
-.containers Button{
-  font-family: 'Catamaran', sans-serif;
 }
   @media only screen and (min-width:375px) and (max-width: 400px){
     main .site-title h1{
@@ -724,27 +715,7 @@ li,a:hover{
     main .media li{
       left: 155px;
     }
-    footer .move-up{
-      left:300px;
-    }
-    footer .footer .container >div{
-    padding: 1rem .9rem !important;
-    }  
-    footer.footer .container{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      margin-left: 3pt;
-    }
-    footer.footer .follow div ul {
-      list-style-type: none;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      font-size: 30px;
-      margin: 1vh;
-      padding:0.1vh;
-     transition: .5s;
-    }
-    }
+  }
 
     @media screen and (min-width:768px){
       *{
@@ -888,11 +859,18 @@ li,a:hover{
         font-size: 16px;
       }
       .galleryachive{
-       height: 20vh;
+       height: auto;
        margin-bottom: 2rem;
        width: 100%;
       }
-    
+      .overley{
+        font-family: 'Montserrat', sans-serif;
+  font-weight: 90
+      }
+    .bbc p{
+      font-weight: 900;
+      font-size: 5rem;
+    }
     }
      @media only screen and (min-width:770px) and (max-width:1024px){
     
