@@ -17,7 +17,7 @@ class StickyFooter1 extends Component {
     padding: "2rem"
     }}
 >
-Copyright &copy; 2019-2020 <a href="/">Venky Creations</a>
+Copyright &copy; 2020 <a href="/">Venky Creations</a>
 </StickyFooter>
 
 </div>

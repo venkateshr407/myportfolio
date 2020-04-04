@@ -1,5 +1,7 @@
 import React from 'react';
 import {Container} from 'react-bootstrap';
+import logo1 from './images/Venky Creations_free-file (3).png';
+import Img from 'react-image';
 
 
 export const Layout = (props)=>(
@@ -19,7 +21,7 @@ export const Layout = (props)=>(
               Landscape Photographer and web developer<br/> Interested in Photography:) </p>
       </section>
       <section id="section-1" className="aboutheading" data-aos="fade-right" data-aos-delay="200">
-        <h1>About Portfolio :</h1>
+       <Img src={logo1} classname="logo1"></Img>
         <p>" This portfolio doesn't perform any user interaction :)  "<br/>
         This portfolio is just to view the picture's (My Gallery), which captured through a smartphone,
             This portfolio is developed and maintained by myself.</p>

@@ -34,10 +34,12 @@ body{
 }
 .logo{
   width: 40vw;
-
   margin: 0;
   padding: 0;
   content: none;
+}
+.logo2 img{
+  width: 2vw;
 }
 .container{
   width: 80%;
@@ -57,8 +59,15 @@ body{
   margin: auto;
 }
 .fontforintro{
-  font-family: 'Livvic', sans-serif;
-  font-family: 'Lexend Deca', sans-serif;  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+.fontforintro h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: yellow;
 }
 
 /* mobile first approch */
@@ -107,7 +116,7 @@ background-color: rgb(8, 5, 24);
 .header2{
   font-size: 25px;
   font-weight: 800;
-color:#6009a8;
+color:rgb(145, 116, 200);
 margin-bottom: 1rem;
 }
 .header{
@@ -190,7 +199,7 @@ box-shadow:  5px 5px 4px #e4e4e4,
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 2rem;
-  color:#6009a8;
+  color:rgb(145, 116, 200);
 }
 .achieved{
   margin-left: 2rem;
@@ -208,12 +217,12 @@ box-shadow:  5px 5px 4px #e4e4e4,
 
 .inline{
   font-weight: 800;
-  color:#6009a8;
+  color:rgb(145, 116, 200);
 }
 .inline1 {
   font-weight: 800;
   font-size: 20px;
-  color:#7b1ec7;
+  color:rgb(255, 255, 255);
   padding-left: 0.5rem;
 }
 a{
@@ -227,7 +236,7 @@ div .waytogallery{
 .header222{
   font-size: 25px;
   font-weight: 700;
-  color:#6009a8;
+  color:rgb(145, 116, 200);
 }
 .image{
   width: 100%;
@@ -295,8 +304,12 @@ div .waytogallery{
   padding-left: 0rem;
   /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
   padding: 1rem;
-  color: blueviolet;
-  /* border-radius: 2%; */
+  color:white;
+  border-radius: 2%;
+  background: #396afc;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 .header2c{
@@ -313,7 +326,7 @@ div .waytogallery{
 }
 .icons i {
   font-size: 25px;
-  color: rgb(131, 4, 204);
+  color: rgb(4, 195, 209);
 }
 .icons {
 font-size: 20px;
@@ -642,7 +655,7 @@ padding: center;
   justify-content: center;
 }
 .media a{
-  color: #6f55e4;
+  color:rgb(145, 116, 200);
 
 }
 
@@ -721,6 +734,18 @@ li,a:hover{
       *{
           margin:0;
           padding: 0%;
+        }
+        .fontforintro{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.8rem;
+          font-weight: 700;
+         color: white;
+        }
+        .fontforintro h1{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 4rem;
+          font-weight: 700;
+          color: yellow;
         }
         .mainheading{
           background: none;
