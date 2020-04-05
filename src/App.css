@@ -66,12 +66,26 @@ body{
 .venkatesh{
   font-family: "Covered By Your Grace";
  font-size: 3.5rem;
+ color: transparent;
+ background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ text-decoration: none;
+ position: relative;
+ line-height: 1;
+ display: inline-block;
+ font-weight: bold;
+ -webkit-background-clip:text ;
+ background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 .fontforintro h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
-  font-weight: 700;
-  color: yellow;
+  font-weight: 800;
+  color:rgb(241, 245, 7);
+  
 }
 
 /* mobile first approch */
@@ -105,7 +119,7 @@ background-color: rgb(8, 5, 24);
   padding: 0rem;
   font-size: 16px;
   margin-left: 0rem;
-  margin-top: -1rem;
+  margin-top: 0rem;
   font-weight: 300;
   color: #8d8d8d;
 }

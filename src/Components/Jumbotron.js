@@ -40,7 +40,7 @@ const Styles = styled.div`
    <Styles>
      <Jumbo fluid className="jumbo" data-aos="zoom-in" data-aos-delay="200">
        <div className="animated fadeInUpBig overlay  col-md-8">
-         <Container className="fontforintro" data-aos="fade-up-left" data-aos-delay="200"><h1 >Welcome</h1>
+         <Container className="fontforintro" data-aos="fade-up-left" data-aos-delay="200"><h1>Welcome</h1>
          <p className="bbc">@bbcearth: Hi there, We love this photo and we were wondering if we could use it for BBC Earth social,website or digital ? 
          </p>
 
