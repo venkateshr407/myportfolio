@@ -17,7 +17,7 @@ export default class Home extends Component {
                </div>
                <div className="introtext">
                    <h1><span className="intropara">Hello there,i'm 
-                   <br/></span> VENKATESH.R</h1>
+                   <br/></span><h2 className="venkatesh"> Venkatesh.R</h2></h1>
                    <h3 className="introheader">Landscape photographer & Web developer</h3>
                </div>
                

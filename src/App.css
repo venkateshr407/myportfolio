@@ -63,6 +63,10 @@ body{
   font-size: 1.3rem;
   font-weight: 900;
 }
+.venkatesh{
+  font-family: "Covered By Your Grace";
+ font-size: 3.5rem;
+}
 .fontforintro h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
@@ -73,7 +77,8 @@ body{
 /* mobile first approch */
 .intropara {
   font-size: 16px;
-  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif */
+  font-family: "Damion";
   font-weight:300;
   text-align: left;
   padding: 0;
@@ -81,7 +86,7 @@ body{
 }
 .introtext h1{
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Damion";
   color: #ffffff;
   padding: 0.5rem;
   font-size: 50px auto;
@@ -92,14 +97,15 @@ body{
 .mainheading{
 background-color: rgb(8, 5, 24);
   background-size: cover;
-  
 }
 .introheader{
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Damion";
+  /* font-family: 'Josefin Sans', sans-serif; */
   padding: 0rem;
-  font-size: 12px;
+  font-size: 16px;
   margin-left: 0rem;
+  margin-top: -1rem;
   font-weight: 300;
   color: #8d8d8d;
 }
@@ -181,10 +187,12 @@ box-shadow:  5px 5px 4px #e4e4e4,
   font-size: 16px;
   font-weight: 600;
   margin-top: 2rem;
+  margin-left: 1rem;
 }
 .studied p{
   font-size: 12px;
   font-weight: 500;
+  margin-left: 1rem;
   color: rgb(209, 209, 209);
 }
 .academy{
@@ -956,9 +964,21 @@ li,a:hover{
         width: 100%;
         height: 500vh;
       }
+      .venkatesh{
+        font-family: "Covered By Your Grace";
+       font-size: 5rem;
+      }
+      .intropara{
+        font-size: 1.5rem;
+  
+      }
+
+      .introheader{
+        font-size: 1.2rem;
+      }
       .introtext h1{
         margin: 0 auto;
-        font-size: 3rem;
+        font-size: 5rem;
         padding-top: 10rem;
       }
       .studied h2{
