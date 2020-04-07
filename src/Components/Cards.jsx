@@ -7,10 +7,10 @@ import img2 from '../images/ootycopy1.jpg';
 import img3 from '../images/flowercopy.jpg';
 import img4 from '../images/suncopy .jpg';
 import img5 from '../images/lepcopy.jpg';
-import img6 from '../images/magicinsky.jpg';
-import img7 from '../images/car.jpg';
-import img8 from '../images/metro-wholesale.jpg';
-import img9 from '../images/sundown.jpg';
+import img6 from '../images/magicinsky1.jpg';
+import img7 from '../images/travel.jpg';
+import img8 from '../images/metro-wholesale-img.jpg';
+import img9 from '../images/sunset.jpg';
 
 class Cards extends Component {
     render(){
