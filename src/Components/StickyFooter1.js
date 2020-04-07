@@ -10,14 +10,15 @@ class StickyFooter1 extends Component {
     normalStyles={{
     backgroundColor: "  black",
     color:"white",
-    padding: "2rem"
+    padding: "2rem",
+    fontfamily: "Montserrat, sans-serif"
     }}
     stickyStyles={{
     backgroundColor: "rgba(255,255,255,.8)",
     padding: "2rem"
     }}
 >
-Copyright &copy; 2020 <a href="/">Venky Creations</a>
+ &copy; 2020 <a href="/">Venky Creations</a>
 </StickyFooter>
 
 </div>

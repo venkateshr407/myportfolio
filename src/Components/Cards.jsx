@@ -7,7 +7,11 @@ import img2 from '../images/ootycopy1.jpg';
 import img3 from '../images/flowercopy.jpg';
 import img4 from '../images/suncopy .jpg';
 import img5 from '../images/lepcopy.jpg';
-import img6 from '../images/treecopy.jpg';
+import img6 from '../images/magicinsky.jpg';
+import img7 from '../images/car.jpg';
+import img8 from '../images/metro-wholesale.jpg';
+import img9 from '../images/sundown.jpg';
+
 class Cards extends Component {
     render(){
         return(
@@ -23,7 +27,13 @@ class Cards extends Component {
                     <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img3} title="Flower"/><br/></div>
                     <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img4} title="Sunset"/><br/></div>
                     <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img5} title="Lepakshi,Andhra Pradesh"/><br/></div>
-                    <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img6} title="Niligiris"/><br/></div>
+                    <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img6} title="Bluehole"/><br/></div>
+                    <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img7} title="Travel"/><br/></div>
+                    <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img8} title="Marketing"/><br/></div>
+                    <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img9} title="Nature"/><br/></div>
+                            
+                    
+                
                 </div>
               </div>
 //  </div>

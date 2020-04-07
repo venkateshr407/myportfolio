@@ -13,8 +13,6 @@ const CardUI = props => {
                   <h4 className=' card-title '> {props.title}</h4>
                   <h4 className='card-titles'> {props.titles}</h4>
               </div>
-              {/* <p className='card-text text-secondary'> photograpy</p> */}
-              {/* <a herf="#" className='btn btn-outline-success'>Go anywhere</a> */}
               
           </div>
         
