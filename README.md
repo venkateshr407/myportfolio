@@ -2,4 +2,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Portfolio
 
-open  # https://venkycreations.netlify.com/
+## Link for portfolio https://venkycreations.netlify.com/
