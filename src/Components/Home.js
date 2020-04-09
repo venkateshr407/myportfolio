@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import theImg from '../images/venky.jpg';
-import theImg1 from '../images/metro-wholesale.jpg';
-import theImg2 from '../images/sundown.jpg';
-import theImg3 from '../images/car.jpg';
+import theImg1 from '../images/metro-wholesale-img.jpg';
+import theImg2 from '../images/sunset.jpg';
+import theImg3 from '../images/travel.jpg';
 import theImg4 from '../images/hole.jpg';
 // import theImg5 from '../images/map.png';
 
@@ -110,7 +110,7 @@ at a professional level.</h3></div>
                     </section>
                     <div className="waytogallery" data-aos="fade-up"><h2 className="header222"><i class="fa fa-camera"></i> Photography</h2>
                     <p>categorie's of Photography !</p>
-                       <div className="grid-container">
+                       {/* <div className="grid-container">
                            <div className="pic">
                                <img src={theImg1} className="image" />
                            <div class="text-block">
@@ -132,27 +132,49 @@ at a professional level.</h3></div>
                             </div>
                         </div>
 
-                       </div>
-                        
-                   </div>
-                   <section className="sectioncontact">
-                   <div className="contact" data-aos="fade-up">
-                    <h2 className="header2c"><i class="fa fa-address-card"></i> Contact</h2>
-                    {/* <img src={theImg5} className="map" /> */}
-                    <section className="contacts">
-                        <div className="icons">
-                            <h3 className="header3"><h5><i class="fa fa-paper-plane"></i> <span className="inline1">  E-mail </span><br/><p className="contactpara"><a href="mailto:venkateshr590@gmail.com">  venkateshr590@gmail.com</a></p></h5></h3></div>
-                        <div className="icons">
-                            <h3 className="header3"><h5><i class="fa fa-phone"></i><span className="inline1"> Phone </span><br/> <p className="contactpara">+91 77957 13898 </p></h5></h3></div>
-                        <div className="icons">
-                            <h3 className="header3"><h5><i class="fa fa-map-marker"></i>  <span className="inline1">  Address </span><br/>  <p className="contactpara"> Konkani Doddi, Ramanagara, Karnataka 562159.</p></h5></h3></div>
+                       </div> */}
+
+                    </div>
+                    <section className="wayforgall">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <img class="d-block w-100 h-75" src={theImg3} alt="First slide"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Travel Photography</h5>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                <img class="d-block w-100 h-75" src={theImg1} alt="Second slide"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Marketing Photography</h5>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                <img class="d-block w-100 h-75" src={theImg2} alt="Third slide"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Landscape Photography</h5>
+                                </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            </div>
                     </section>
-                </div>
-                </section>
+                   
+                  
+ 
     
-                   </div>
             </div>
             </div>
+            </div>
+            
             
             
         )

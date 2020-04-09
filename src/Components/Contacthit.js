@@ -16,7 +16,8 @@ export default class Contacthit extends Component {
             </div>
             <div className="hitmail">
             <p><a href="mailto:venkateshr590@gmail.com">  venkateshr590@gmail.com</a>SAY HI 👋</p></div>
-             
+            <h5 className="header5"><i class="fa fa-phone"></i>+91 77957 13898 </h5>
+            <h5 className="header5"><i class="fa fa-map-marker"></i> Ramanagara, Karnataka, India 562159</h5>
             </div>
                 </div>
         )
