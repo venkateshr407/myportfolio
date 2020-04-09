@@ -31,7 +31,6 @@ class App extends Component{
                <Route exact path="/gallery" component={Cards} />
                <Route exact path="/gallery" component={Heading} />
                <Route exact path="/gallery" component={StickyFooter1} />
-               <Route exact path="/gallery" component={Contacthit} />
 
                <Route path="/about" component={About}/>
               <Route path="/about" component={Layout} /> 

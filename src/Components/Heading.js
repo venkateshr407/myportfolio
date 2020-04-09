@@ -14,8 +14,8 @@ export const Heading = (props) => (
         <br/>
         <section className="galleryachive">
           <div className="gallerydiv">
-          <h1 className="gallerytext">Featured in social media.</h1>
-          <p className="gallerypara">this made me to motivate in my photography.</p>
+          <h1 className="gallerytext">Work, i'm proud of ...</h1>
+          <p className="gallerypara"> Featured in social media, this made me to motivate in my photography.</p>
           </div>
         </section>
         <br/>
