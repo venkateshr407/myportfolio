@@ -64,6 +64,8 @@ body{
   font-weight: 900;
 }
 .venkatesh{
+  display: flex;
+  justify-content: center;
   font-family: "Covered By Your Grace";
  font-size: 3.5rem;
  color: transparent;
@@ -122,7 +124,7 @@ background-color: rgb(8, 5, 24);
 .subtitle{
   display: flex;
   justify-content: center;
- 
+ margin: 0;
   font-family: "Damion";
   font-weight: 800;
   color: #8d8d8d;
@@ -429,7 +431,7 @@ margin-bottom: 1rem;
   color: rgb(114, 114, 114);
 }
 .contact-containter{
-background-color: #030303;
+background-color: #11051a;
   padding: 2rem;
   margin: auto;
   display: flex;
@@ -444,10 +446,11 @@ background-color: #030303;
 .hittext{
   text-align: center;
   /* color: rgb(0, 183, 255); */
-  background: #FF512F;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: transparent;
+ color: transparent;
+ background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   line-height: 1;
   background-clip: text;
   font-weight: bolder;
@@ -1116,6 +1119,7 @@ li,a:hover{
         font-family: "Covered By Your Grace";
        font-size: 5rem;
       }
+     
       .intropara{
         font-size: 1.5rem;
   
