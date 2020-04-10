@@ -5,6 +5,7 @@ import theImg2 from '../images/sunset.jpg';
 import theImg3 from '../images/travel.jpg';
 import theImg4 from '../images/hole.jpg';
 // import theImg5 from '../images/map.png';
+import Typed from 'react-typed';
 
 export default class Home extends Component {
     render() {
@@ -18,7 +19,13 @@ export default class Home extends Component {
                <div className="introtext">
                    <h1><span className="intropara">Hello there,i'm 
                    <br/></span><h2 className="venkatesh"> Venkatesh.R</h2></h1>
-                   <h3 className="introheader">Landscape photographer & Web developer</h3>
+                   <p className='subtitle'><Typed
+                        strings={['Student','Landscape Photographer','Web Developer']}
+                        typeSpeed={40}
+                        backSpeed={20}
+                        loop={true}
+                    /></p>
+                   {/* <h3 className="introheader">Landscape photographer & Web developer</h3> */}
                </div>
                
                <div className="media">

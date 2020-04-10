@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@coreui/coreui": "^3.0.0",
     "@sendgrid/mail": "^6.5.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "c-btn": "^1.0.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "react": "^16.13.0",
@@ -16,6 +18,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "react-sticky-footer": "^0.1.0-rc3",
+    "react-typed": "^1.2.0",
     "reactstrap": "^8.4.1",
     "styled-components": "^5.0.1",
     "styled-loaders-react": "^1.1.0"
