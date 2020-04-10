@@ -24,7 +24,7 @@ main{
   --text-color:#FFF;
 }
 body{
-  background-color: #110321;
+  background-color: #000000;
 }
 .App {
   height: 100vh;
@@ -83,7 +83,7 @@ background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, F
  -webkit-text-fill-color: transparent;
 }
 .fontforintro h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 3rem;
   font-weight: 800;
   color:transparent;
@@ -311,6 +311,7 @@ div .waytogallery{
 .skillset-list{
   list-style-type:disc;
   margin-left: 2rem; 
+
 }
 .pic{
   position: relative;
