@@ -486,7 +486,7 @@ margin-bottom: 1rem;
   color: rgb(114, 114, 114);
 }
 .contact-containter{
-background-color: #11051a;
+background-color: #000000;
   padding: 2rem;
   margin: auto;
   display: flex;
@@ -502,10 +502,10 @@ background-color: #11051a;
   text-align: center;
   /* color: rgb(0, 183, 255); */
  color: transparent;
- background: #8E2DE2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+ background: #00d2ff;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
   line-height: 1;
   background-clip: text;
   font-weight: bolder;
@@ -513,7 +513,7 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, F
   font-family: 'Oswald', sans-serif;
 }
 .hitmail{
-  border: 1px solid rgb(141, 11, 108);
+  border: 1px solid rgb(53, 51, 52);
   margin: auto;
   line-height: 1;
   display: inline-block;
@@ -1168,7 +1168,7 @@ li,a:hover{
       margin-top: 3rem;
     }
     .venky{
-      width: 20vw;
+      width: auto;
       height: 20vh;
       margin: 0;
     }
@@ -1181,6 +1181,12 @@ li,a:hover{
     .grid-aboutme p{
       display: inline;
       padding: 1rem;
+    }
+    .textheading{
+      font-size: 4rem;
+    }
+    .subtitle{
+      font-size: 2rem;
     }
     .introtext h1{
       margin: 0 auto;
