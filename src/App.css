@@ -429,11 +429,7 @@ margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
   width: 35%;
-=======
-  width: 20%;
->>>>>>> ddf7e85a51b9eeab46c584ef4217dc961ae7b970
   margin-top: 1rem;
   padding: 1rem;
   border: 0 solid;
@@ -1215,7 +1211,7 @@ li,a:hover{
         font-size: 4rem;
       }
       .subtitle{
-        margin-top: 2rem;
+        margin-top: 4rem;
       }
       .clickable-button{
         width: 15vw;
