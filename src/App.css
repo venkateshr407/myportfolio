@@ -14,18 +14,22 @@
 html{
   scroll-behavior: smooth;
 }
-
+/* :root{
+  --bg-color:rgb(0, 0, 0);
+  --text-color:#ffffff;
+}
 main{
   background-color: var(--bg-color);
   color:var(--text-color);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 #dark-mode-toggle:checked + main {
-  --bg-color:#26242E;
-  --text-color:#FFF;
-}
+  --bg-color:rgb(255, 255, 255);
+  --text-color:#000000;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+} */
 body{
-  /* background-color: #110321; */
-  background-color: black;
+  background-color: rgb(10, 4, 19);
 }
 .App {
   height: 100vh;
@@ -77,11 +81,14 @@ body{
 }
 .naming{
  margin: 2rem;
+ /* color: white; */
  font-family: 'Poppins', sans-serif;
  }
  .textheading{
-   font-size: 2.5rem;
+   font-size: 2.6rem;
    font-weight: bolder;
+   /* color:white; */
+   color: white;
  }
  .inlinetext{
   color: rgb(148, 91, 202);
@@ -130,7 +137,12 @@ display: inline;
 background-clip: text;
   
 }
+.grid-aboutme{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 
+}
 
 /* mobile first approch */
 .intropara {
@@ -192,9 +204,19 @@ margin-bottom: 1rem;
   font-weight: 700;
   margin: 2rem;
 }
+.grid-aboutme{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  margin: 0;
+}
+.grid-aboutme p{
+  font-size: 1rem;
+  font-weight: bolder;
+}
 .venky{
   display: block;
-  height: 50%;
+  height: 40vh;
   width: 90%;
   margin: 0 auto;
   margin-top: 2rem;
@@ -954,19 +976,30 @@ li,a:hover{
         .intropara span{
           font-size: 16px;
         }
+        .grid-aboutme{
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-template-rows: auto;
+          margin: 0;
+        }
+        .grid-aboutme p{
+          font-size: 1rem;
+          padding: 1rem;
+        }
       .venky{
         float: right;
-        position: relative;
-        height:150%;
-        width: 50vw;
+        height:20vh;
+        margin: 1rem;
+        width: 25vW;
+        border-radius: 2%;
       }
       .media{
       margin: 0 auto;
       }
       .about{
         margin-top: 8rem;
-        margin-left: 8rem;
-        margin-right: 8rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
       }
       .about h2{
         font-size: 45px;
@@ -1100,6 +1133,13 @@ li,a:hover{
         width: 18vw;
         margin-top: 3rem;
       }
+      .grid-aboutme{
+        font-size: 2rem;
+        padding: 1rem;
+      }
+      .venky{
+        width: 20vw;
+      }
       .grid-container{
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -1126,6 +1166,21 @@ li,a:hover{
     .clickable-button{
       width: 18vw;
       margin-top: 3rem;
+    }
+    .venky{
+      width: 20vw;
+      height: 20vh;
+      margin: 0;
+    }
+    .grid-aboutme{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto;
+      margin: 0 auto;
+    }
+    .grid-aboutme p{
+      display: inline;
+      padding: 1rem;
     }
     .introtext h1{
       margin: 0 auto;
@@ -1175,7 +1230,14 @@ li,a:hover{
         font-family: "Covered By Your Grace";
        font-size: 5rem;
       }
-     
+      .venky{
+        width:25vw;
+        height: auto;
+      }
+     .grid-aboutme p{
+       font-size: 2rem;
+       padding: 2rem;
+     }
       .intropara{
         font-size: 1.5rem;
   

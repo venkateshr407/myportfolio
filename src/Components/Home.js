@@ -37,8 +37,10 @@ export default class Home extends Component {
                 </ul>
             </div>
             </div>  */}
+            
 
                 <div className="landing-hero">
+ 
                     <div className="naming">
                         <h1 className="textheading">Hello World, I'm <span className="inlinetext">Venkatesh.R</span></h1>
                         <p className='subtitle'><Typed
@@ -48,16 +50,20 @@ export default class Home extends Component {
                         loop={true}
                     /></p>
                      <CButton link={'mailto:venkateshr590@gmail.com'} text={'SAY HI 👋'}/>
+                   
                     </div>
-
+                    {/* <label className="dark-mode-btn" for="dark-mode-toggle">click</label> */}
                     {/* <CButton link={'mailto:venkateshr590@gmail.com'} text={'SAY HI'}/> */}
   
                 </div>
 
                <div className="about" data-aos="fade-up">
                    <h2 className="header2">About me</h2>
+                   <section className="grid-aboutme">
                    <img src={theImg} className="venky"/>
-                        <p>I describe my self as someone who's persistant, a quick learner and loves problem solving by using simple and scalable solutions.</p>
+                        <p>My name is <span className="inlinetext">Venkatesh.R</span> ,
+                             I describe my self as someone who's persistant, a quick learner and loves problem solving by using simple and scalable solutions.</p>
+                   </section>
                 <section className="doing" data-aos="fade-up">
                     <h2 className="header2"><i class="fa fa-laptop-code"></i>What i'm doing</h2>
                    <div className="wrapper">
