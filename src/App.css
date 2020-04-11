@@ -85,7 +85,7 @@ body{
  font-family: 'Poppins', sans-serif;
  }
  .textheading{
-   font-size: 2.6rem;
+   font-size: 2.2rem;
    font-weight: bolder;
    /* color:white; */
    color: white;
@@ -101,7 +101,7 @@ body{
   justify-content: start;
   margin: 0;
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
  font-family: 'Poppins', sans-serif;
   font-weight: bolder;
   color: #ffffff;
@@ -429,7 +429,11 @@ margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   width: 35%;
+=======
+  width: 20%;
+>>>>>>> ddf7e85a51b9eeab46c584ef4217dc961ae7b970
   margin-top: 1rem;
   padding: 1rem;
   border: 0 solid;
