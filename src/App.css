@@ -38,7 +38,7 @@ body{
   font-family: 'Open Sans Condensed', sans-serif;
 }
 .logo{
-  width: 40vw;
+  width: 30vw;
   margin: 0;
   padding: 0;
   content: none;
@@ -91,6 +91,8 @@ body{
    color: white;
  }
  .inlinetext{
+  /* color: transparent; */
+  line-height: 1;
   color: rgb(148, 91, 202);
   font-family: 'Poppins', sans-serif;
 }
@@ -105,25 +107,7 @@ body{
   color: #ffffff;
 }
 
-.venkatesh{
-  display: flex;
-  justify-content: center;
-  font-family: "Covered By Your Grace";
- font-size: 3.5rem;
- color: transparent;
- background: #FF512F;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
- text-decoration: none;
- position: relative;
- line-height: 1;
- display: inline-block;
- font-weight: bold;
- -webkit-background-clip:text ;
- background-clip: text;
- -webkit-text-fill-color: transparent;
-}
 .fontforintro h1{
      font-family: 'Oswald', sans-serif;
   font-size: 3rem;
@@ -216,8 +200,9 @@ margin-bottom: 1rem;
 }
 .venky{
   display: block;
-  height: 40vh;
+  height: 45vh;
   width: 90%;
+  border-radius: 1%;
   margin: 0 auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -444,7 +429,7 @@ margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30vw;
+  width: 35%;
   margin-top: 1rem;
   padding: 1rem;
   border: 0 solid;
