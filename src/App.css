@@ -24,7 +24,8 @@ main{
   --text-color:#FFF;
 }
 body{
-  background-color: #110321;
+  /* background-color: #110321; */
+  background-color: black;
 }
 .App {
   height: 100vh;
@@ -63,6 +64,40 @@ body{
   font-size: 1.3rem;
   font-weight: 900;
 }
+.landing-hero{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.naming{
+ margin: 2rem;
+ font-family: 'Poppins', sans-serif;
+ }
+ .textheading{
+   font-size: 2.5rem;
+   font-weight: bolder;
+ }
+ .inlinetext{
+  color: rgb(148, 91, 202);
+  font-family: 'Poppins', sans-serif;
+}
+.subtitle{
+  display: flex;
+  justify-content: start;
+  margin: 0;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+ font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
 .venkatesh{
   display: flex;
   justify-content: center;
@@ -121,14 +156,6 @@ background-clip: text;
 background-color: rgb(8, 5, 24);
   background-size: cover;
 }
-.subtitle{
-  display: flex;
-  justify-content: center;
- margin: 0;
-  font-family: "Damion";
-  font-weight: 800;
-  color: #8d8d8d;
-}
 .introheader{
   text-align: center;
   font-family: "Damion";
@@ -168,7 +195,10 @@ margin-bottom: 1rem;
 .venky{
   display: block;
   height: 50%;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
@@ -391,7 +421,9 @@ margin-bottom: 1rem;
 .clickable-button {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  width: 30vw;
+  margin-top: 1rem;
   padding: 1rem;
   border: 0 solid;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
@@ -885,6 +917,13 @@ li,a:hover{
           margin:0;
           padding: 0%;
         }
+        .naming{
+          margin-left: 4rem;
+        }
+        .clickable-button{
+          width: 18vw;
+          margin-top: 3rem;
+        }
         .fontforintro{
           font-family: 'Montserrat', sans-serif;
           font-size: 1.8rem;
@@ -1057,7 +1096,10 @@ li,a:hover{
     }
     }
      @media only screen and (min-width:770px) and (max-width:1024px){
-    
+      .clickable-button{
+        width: 18vw;
+        margin-top: 3rem;
+      }
       .grid-container{
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -1081,7 +1123,10 @@ li,a:hover{
     
  
    @media only screen  and (min-width:800px) and (max-width:1023px) {
-     
+    .clickable-button{
+      width: 18vw;
+      margin-top: 3rem;
+    }
     .introtext h1{
       margin: 0 auto;
       font-size: 3rem;
@@ -1115,6 +1160,16 @@ li,a:hover{
       .logo1{
         width: 100%;
         height: 500vh;
+      }
+      .textheading{
+        font-size: 4rem;
+      }
+      .subtitle{
+        margin-top: 2rem;
+      }
+      .clickable-button{
+        width: 15vw;
+        margin-top: 3rem;
       }
       .venkatesh{
         font-family: "Covered By Your Grace";

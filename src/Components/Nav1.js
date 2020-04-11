@@ -6,7 +6,7 @@ import Img from 'react-image';
 
 const Styles = styled.div `
 .navbar{
-  background-color: rgb(8, 5, 24)
+  background-color: black
 }
 .navbar-brand, .navbar-nav .nav-link{
   margin:0;

@@ -6,13 +6,14 @@ import theImg3 from '../images/travel.jpg';
 import theImg4 from '../images/hole.jpg';
 // import theImg5 from '../images/map.png';
 import Typed from 'react-typed';
+import CButton from '../component/clickable-button';
 
 export default class Home extends Component {
     render() {
         return (
             <div className="all">
             <div className="display">
-                <div className="mainheading">
+                {/* <div className="mainheading">
                <div className="container-main">
                    <img src={theImg} className="venky"/>
                </div>
@@ -26,7 +27,7 @@ export default class Home extends Component {
                         loop={true}
                     /></p>
                    {/* <h3 className="introheader">Landscape photographer & Web developer</h3> */}
-               </div>
+               {/* </div>
                
                <div className="media">
                 <ul>
@@ -35,9 +36,27 @@ export default class Home extends Component {
                     <li><a href="https://www.linkedin.com/in/venkatesh-r-0571a4178"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
-            </div>
+            </div>  */}
+
+                <div className="landing-hero">
+                    <div className="naming">
+                        <h1 className="textheading">Hello World, I'm <span className="inlinetext">Venkatesh.R</span></h1>
+                        <p className='subtitle'><Typed
+                        strings={['Student','Landscape Photographer','Web Developer']}
+                        typeSpeed={40}
+                        backSpeed={20}
+                        loop={true}
+                    /></p>
+                     <CButton link={'mailto:venkateshr590@gmail.com'} text={'SAY HI 👋'}/>
+                    </div>
+
+                    {/* <CButton link={'mailto:venkateshr590@gmail.com'} text={'SAY HI'}/> */}
+  
+                </div>
+
                <div className="about" data-aos="fade-up">
                    <h2 className="header2">About me</h2>
+                   <img src={theImg} className="venky"/>
                         <p>I describe my self as someone who's persistant, a quick learner and loves problem solving by using simple and scalable solutions.</p>
                 <section className="doing" data-aos="fade-up">
                     <h2 className="header2"><i class="fa fa-laptop-code"></i>What i'm doing</h2>

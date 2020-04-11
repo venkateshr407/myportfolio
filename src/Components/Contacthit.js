@@ -16,10 +16,9 @@ export default class Contacthit extends Component {
                     <li><a href="https://www.linkedin.com/in/venkatesh-r-0571a4178"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
-          
-            {/* <p><a href="mailto:venkateshr590@gmail.com">  venkateshr590@gmail.com</a>SAY HI 👋</p> */}
-            <CButton link={'mailto:venkateshr590@gmail.com'} text={'SAY HI'}/>
-            {/* <Button link={'mailto:venkateshr590@gmail.com'} text={'SAY HI'}>s</Button> */}
+          <div className="hitmail">
+            <p><a href="mailto:venkateshr590@gmail.com">  venkateshr590@gmail.com</a>SAY HI 👋</p>
+            </div>
             <h5 className="header5"><i class="fa fa-phone"></i>+91 77957 13898 </h5>
             <h5 className="header5"><i class="fa fa-map-marker"></i> Ramanagara, Karnataka, India 562159</h5>
             </div>
