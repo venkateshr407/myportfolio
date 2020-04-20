@@ -175,7 +175,7 @@ at a professional level.</h3></div>
                                 <img class="d-block w-100 h-75" src={theImg3} alt="First slide"/>
                                 
                                 <div class="carousel-caption text-left">
-                                    <h3>Travell Photography</h3>
+                                    <h3>Travel Photography</h3>
 
                                     <p>for more visit :  <a class="btn btn-outline-primary" href="/gallery" role="button">Gallery</a></p>
                                 </div>
