@@ -48,8 +48,9 @@ export default class Home extends Component {
                         typeSpeed={40}
                         backSpeed={20}
                         loop={true}
-                    /></p>
-                     <CButton link={'mailto:venkateshr590@gmail.com'} text={'SAY HI 👋'}/>
+                    /></p><br/>
+                    <br/>
+                     <CButton link={'mailto:venkateshr590@gmail.com'} text={'SEND A MESSAGE'}/>
                    
                     </div>
                     {/* <label className="dark-mode-btn" for="dark-mode-toggle">click</label> */}
@@ -172,20 +173,25 @@ at a professional level.</h3></div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                 <img class="d-block w-100 h-75" src={theImg3} alt="First slide"/>
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Travel Photography</h5>
+                                
+                                <div class="carousel-caption text-left">
+                                    <h3>Travell Photography</h3>
+
+                                    <p>for more visit :  <a class="btn btn-outline-info" href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                                 <div class="carousel-item">
                                 <img class="d-block w-100 h-75" src={theImg1} alt="Second slide"/>
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Marketing Photography</h5>
+                                <div class="carousel-caption text-left">
+                                    <h3>Marketing Photography</h3>
+                                    <p><a class="btn btn-outline-success" href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                                 <div class="carousel-item">
                                 <img class="d-block w-100 h-75" src={theImg2} alt="Third slide"/>
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Landscape Photography</h5>
+                                <div class="carousel-caption text-left">
+                                    <h3>Landscape Photography</h3>
+                                    <p><a class="btn btn-outline-warning" href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                             </div>
