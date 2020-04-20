@@ -177,21 +177,21 @@ at a professional level.</h3></div>
                                 <div class="carousel-caption text-left">
                                     <h3>Travell Photography</h3>
 
-                                    <p>for more visit :  <a class="btn btn-outline-info" href="/gallery" role="button">Gallery</a></p>
+                                    <p>for more visit :  <a class="btn btn-outline-primary" href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                                 <div class="carousel-item">
                                 <img class="d-block w-100 h-75" src={theImg1} alt="Second slide"/>
                                 <div class="carousel-caption text-left">
                                     <h3>Marketing Photography</h3>
-                                    <p><a class="btn btn-outline-success" href="/gallery" role="button">Gallery</a></p>
+                                    <p>for more visit :  <a class="btn btn-outline-danger" href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                                 <div class="carousel-item">
                                 <img class="d-block w-100 h-75" src={theImg2} alt="Third slide"/>
                                 <div class="carousel-caption text-left">
                                     <h3>Landscape Photography</h3>
-                                    <p><a class="btn btn-outline-warning" href="/gallery" role="button">Gallery</a></p>
+                                    <p>for more visit :  <a class="btn btn-outline-warning" href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                             </div>

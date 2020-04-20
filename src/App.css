@@ -93,7 +93,7 @@ body{
  .inlinetext{
   /* color: transparent; */
   line-height: 1;
-  color: rgb(148, 91, 202);
+  color: rgb(145, 116, 200);
   font-family: 'Poppins', sans-serif;
 }
 .subtitle{
@@ -352,6 +352,8 @@ div .waytogallery{
 }
 .carousel-caption{
   font-weight: 900;
+  padding: 1rem;
+  background-color: rgba(23, 23, 24, 0.459);
   font-family: 'Poppins' , sans-serif;
 }
 .pic{
