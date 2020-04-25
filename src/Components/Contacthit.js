@@ -21,6 +21,10 @@ export default class Contacthit extends Component {
             </div>
             <h5 className="header5"><i class="fa fa-phone"></i>+91 77957 13898 </h5>
             <h5 className="header5"><i class="fa fa-map-marker"></i> Ramanagara, Karnataka, India 562159</h5>
+            <div className="madewith">
+                <h6>Made with 💖 
+                    by Venkatesh </h6>
+            </div>
             </div>
             </div>
         
