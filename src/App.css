@@ -536,7 +536,7 @@ background-color: #000000;
 .hitmail a{
   padding: 1rem;
   font-size: 0.7rem;
-  color: rgb(197, 196, 196);
+  color:rgb(72, 72, 73);
   text-transform: uppercase;
   font-weight: 900;
   font-family: 'Oswald', sans-serif;
@@ -554,7 +554,7 @@ i:hover{
   padding: 1rem;
   font-size: 0.7rem;
   font-weight: bolder;
-  color:rgb(169, 153, 241);
+  color:rgb(72, 72, 73);
 }
 .header5{
   margin-top: 1rem;

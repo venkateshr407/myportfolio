@@ -50,7 +50,7 @@ export default class Home extends Component {
                         loop={true}
                     /></p><br/>
                     <br/>
-                     <CButton link={'mailto:venkateshr590@gmail.com'} text={'Hire me'}/>
+                     <CButton link={'mailto:venkateshr590@gmail.com'} text={'SEND A MESSAGE'}/>
                    
                     </div>
                     {/* <label className="dark-mode-btn" for="dark-mode-toggle">click</label> */}
