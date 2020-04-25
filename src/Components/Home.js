@@ -55,7 +55,7 @@ export default class Home extends Component {
                     </div>
                     {/* <label className="dark-mode-btn" for="dark-mode-toggle">click</label> */}
                     {/* <CButton link={'mailto:venkateshr590@gmail.com'} text={'SAY HI'}/> */}
-                    <i class="fa fa-angle-down continue-scroll"></i>
+                    {/* <i class="fa fa-angle-down continue-scroll"></i> */}
                 </div>
 
                <div className="about" data-aos="fade-up">

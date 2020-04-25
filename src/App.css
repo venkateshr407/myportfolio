@@ -185,14 +185,14 @@ margin-bottom: 1rem;
 }
 
 
-.fa.continue-scroll {
+/* .fa.continue-scroll {
     position :absolute;
-    left: 45%;
+    left: 50%;
     bottom: -8%;
     font-size: 60px!important;
     transition: color 5s;
     animation: fadeColor 5s infinite;
-}
+} */
 .grid-aboutme{
   display: grid;
   grid-template-columns: auto;
