@@ -186,9 +186,9 @@ margin-bottom: 1rem;
 
 
 .fa.continue-scroll {
-position :absolute;
-    left: 50%;
-    bottom: -6%;
+    position :absolute;
+    left: 45%;
+    bottom: -8%;
     font-size: 60px!important;
     transition: color 5s;
     animation: fadeColor 5s infinite;
