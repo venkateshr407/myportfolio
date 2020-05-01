@@ -12,15 +12,39 @@ import Nav1 from './Components/Nav1';
 import Contacthit from './Components/Contacthit';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
-
+// import Loader from 'react-loader-spinner'
+import Loader from './Loader';
 
 class App extends Component{
-
+  state = { loading: true };
+  sleep = milliseconds => {
+    return new Promise(resolve => setTimeout(resolve, milliseconds));
+  };
+  wait = async (milliseconds = 3000) => {
+    await this.sleep(milliseconds);
+    this.setState({
+      loading: false
+    });
+  };
+  componentDidMount() {
+    this.wait(3000);
+    // this.fetchGitHub();
+  }
   render(){
+  if (this.state.loading) return <Loader />;
       return(  
             <Router>
+    
               <Nav1/>
                 <div>
+                {/* <Loader
+         type="Puff"
+         color="#00BFFF"
+         height={100}
+         width={100}
+         timeout={3000} //3 secs
+ 
+      /> */}
                   <Route exact path="/" component={Home} />
                   <Route exact path="/" component={Contacthit} />
                 </div>

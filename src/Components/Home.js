@@ -7,12 +7,19 @@ import theImg4 from '../images/hole.jpg';
 // import theImg5 from '../images/map.png';
 import Typed from 'react-typed';
 import CButton from '../component/clickable-button';
+// import Darkmode from 'darkmode-js';
+
+// new Darkmode().showWidget();
 
 export default class Home extends Component {
     render() {
         return (
             <div className="all">
-            <div className="display">
+                <div className="display">
+            {/* <section className="loader-wrapper">
+                    <span className="loader"><span classname="loader-inner"></span></span>
+               </section> */}
+               
                 {/* <div className="mainheading">
                <div className="container-main">
                    <img src={theImg} className="venky"/>
