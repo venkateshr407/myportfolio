@@ -19,6 +19,7 @@
     "react-loader-spinner": "^3.1.14",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "react-scroll-parallax": "^2.3.2",
     "react-sticky-footer": "^0.1.0-rc3",
     "react-typed": "^1.2.0",
     "reactstrap": "^8.4.1",

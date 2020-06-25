@@ -68,7 +68,10 @@ export default class Home extends Component {
                <div className="about" data-aos="fade-up">
                    <h2 className="header2">About me</h2>
                    <section className="grid-aboutme">
+                       
                    <img src={theImg} className="venky"/>
+                
+                
                         <p>My name is <span className="inlinetext">Venkatesh.R</span> ,
                              I describe my self as someone who's persistant, a <span className="inlinetext">quick learner</span> and <span className="inlinetext">loves problem solving</span> by using simple and scalable solutions.</p>
                    </section>
