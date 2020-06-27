@@ -9,6 +9,8 @@ import Home from './Components/Home';
 import About from './Components/About';
 import {Layout} from './Layout';
 import Nav1 from './Components/Nav1';
+import PostParent from './Components/PostParent';
+import PostChild from './Components/PostChild';
 import Contacthit from './Components/Contacthit';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Loader from './Loader';
@@ -29,7 +31,7 @@ class App extends Component{
   }
 
   render(){
-  if (this.state.loading) return <Loader />;
+  // if (this.state.loading) return <Loader />;
       return(  
             <Router>
     
@@ -43,7 +45,7 @@ class App extends Component{
                <Route exact path="/gallery" component={Jumbotron} />  
                <Route exact path="/gallery" component={Infotext} />
                <Route exact path="/gallery" component={Cards} />
-               <Route exact path="/gallery" component={Heading} />
+               <Route exact path="/gallery" component={PostParent} />
                <Route exact path="/gallery" component={StickyFooter1} />
 
                <Route path="/about" component={About}/>
