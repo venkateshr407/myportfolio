@@ -1,7 +1,5 @@
 import React,{Component} from 'react';
 import Card from './CardUI';
-// import {Spring} from 'react-spring';
-
 import img1 from '../images/workcopy.jpg';
 import img2 from '../images/ootycopy1.jpg';
 import img3 from '../images/flowercopy.jpg';
@@ -15,11 +13,6 @@ import img9 from '../images/sunset.jpg';
 class Cards extends Component {
     render(){
         return(
-        //     <Spring
-        // from={{opacity: 0}}
-        // to={{opacity:1}}>
-        // {props=>(
-        //     <div style={props}>
             <div className="container-fluid-flex justify-content-center ">
                 <div className="row">
                     <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img1} title="Man at Work"/><br/></div>
@@ -31,9 +24,6 @@ class Cards extends Component {
                     <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img7} title="Travel"/><br/></div>
                     <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img8} title="Marketing"/><br/></div>
                     <div className="col-md-4" data-aos="zoom-in" data-aos-delay="200"><Card imgsrc={img9} title="Nature"/><br/></div>
-                            
-                    
-                
                 </div>
               </div>
 //  </div>
