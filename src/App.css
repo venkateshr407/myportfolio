@@ -810,12 +810,12 @@ h1{
   width: auto;
   height: auto;
   margin: 0rem;
-  
+
   margin-bottom: 2rem;
-  background: #FF512F;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #0052D4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .gallerytext{
   font-family: 'Montserrat', sans-serif;
@@ -829,7 +829,7 @@ h1{
   font-size: 1rem;
   padding-bottom: 2rem;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(255, 183, 207);
+  color: rgb(244, 244, 245);
   font-weight: 900;
 }
 .postcontainer{
@@ -878,7 +878,14 @@ border-radius: 2px;
   color: #9c7bf7;
   padding: 0 .5rem 0 .5rem;
 }
-
+.postcontainer:nth-child(3){
+  display: flex;
+  flex-direction: row-reverse;
+}
+.postcontainer:nth-child(5){
+  display: flex;
+  flex-direction: row-reverse;
+}
 @media(max-width:600px){
 #main{
   width: 100px;
@@ -1420,6 +1427,12 @@ li,a:hover{
         grid-gap: 2rem;
         margin-left:5rem;
         
+      }
+      .gallerytext{
+        margin-left: 3rem;
+      }
+      .gallerypara{
+        margin-left: 3rem;
       }
       .grid-combo{
         display: grid;

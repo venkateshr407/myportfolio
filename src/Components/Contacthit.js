@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import CButton from '../component/clickable-button';
 
 
 export default class Contacthit extends Component {

@@ -1,10 +1,13 @@
 import React from 'react';
 
-function Home() {
+function Loader() {
   return (
     <div className="loader load-wrapper">
-      <span className="load"><span classname="loader-inner"></span></span><br/>
-      </div>
+      <span className="load">
+        <span classname="loader-inner"></span>'
+      </span>
+      <br/>
+    </div>
   
       
       
@@ -12,4 +15,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Loader;

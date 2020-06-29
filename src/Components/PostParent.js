@@ -3,6 +3,7 @@ import PostChild from '../Components/PostChild';
 import theImage from '../images/tirucopy1.jpg';
 import theImage1 from '../images/featured.jpg';
 import theImage2 from '../images/intropic1.jpg';
+import motherlove from '../images/motherlove.jpg';
 
 const PostParent = () => {
     return(
@@ -30,7 +31,13 @@ const PostParent = () => {
                 postImage={theImage1}
                 onImage="Landscape"
                 onText="Without a shadow of doubt, these #motographs perfectly capture drama, mystery and mood ! "
-                onSpan="Featured @ Motorola India , Instagram"
+                onSpan="Featured @ Motorola India, Instagram"
+            />
+            <PostChild 
+                postImage={motherlove}
+                onImage="Reflection of Mother's love "
+                onText="Your #motograph has us awestruck 😍"
+                onSpan="Comment via Twiter Motorola India"
             />
         </div>
     );

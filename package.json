@@ -24,7 +24,8 @@
     "react-typed": "^1.2.0",
     "reactstrap": "^8.4.1",
     "styled-components": "^5.0.1",
-    "styled-loaders-react": "^1.1.0"
+    "styled-loaders-react": "^1.1.0",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "start": "react-scripts start",
