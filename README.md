@@ -2,6 +2,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## My Portfolio
 
-## Link for portfolio --> https://venkycreations.netlify.com/   
-
 ## Deployed with heroku.app -->  https://venkycreations.herokuapp.com/
+
+#Good to see you here !
