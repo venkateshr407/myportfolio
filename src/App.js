@@ -14,6 +14,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Loader from './Loader';
 
 class App extends Component{
+
   state = { loading: true };
   sleep = milliseconds => {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
@@ -30,6 +31,7 @@ class App extends Component{
 
   render(){
   if (this.state.loading) return <Loader />;
+  
       return(  
             <Router>
     
