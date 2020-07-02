@@ -4,7 +4,7 @@ function Loader() {
   return (
     <div className="loader load-wrapper">
       <span className="load">
-        <span classname="loader-inner"></span>'
+        <span className="loader-inner"></span>'
       </span>
       <br/>
     </div>

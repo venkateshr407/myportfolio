@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import StickyFooter from 'react-sticky-footer';
-import { white } from 'ansi-colors';
 class StickyFooter1 extends Component {
     render(){
         return(
@@ -8,7 +7,7 @@ class StickyFooter1 extends Component {
 <StickyFooter
     bottomThreshold={50}
     normalStyles={{
-    backgroundColor: "  black",
+    backgroundColor: "black",
     color:"white",
     padding: "2rem",
     fontfamily: "Montserrat, sans-serif"

@@ -150,7 +150,7 @@ body{
 }
 .subtitle{
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   margin: 0;
   margin-top: 1rem;
   font-size: 1rem;
@@ -453,8 +453,7 @@ div .waytogallery{
 }
 .contact{
   display: flex;
-  justify-content: start;
-  /* word-wrap: break-word; */
+  justify-content: flex-start;
   flex-wrap: wrap;
   width: auto;
   margin-top: 3rem;
