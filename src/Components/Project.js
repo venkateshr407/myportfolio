@@ -6,12 +6,12 @@ export default class Project extends Component {
         return (
             <div>
                 <div className={project.wrapper}>
-                    <img src={this.props.BGImage}/>
+                    <img alt="img" src={this.props.BGImage}/>
                         <div className={project.overlay}>
                             <div className={project.content}>
                                 <p className={project.text}>{this.props.title}</p>
                                 {/* <a href="">project</a> */}
-                                <a href={this.props.link} target="_blank" className="btn btn-outline-primary">Project</a>
+                                <a href={this.props.link} target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">Project</a>
                             </div>
                         </div>
                 </div>
