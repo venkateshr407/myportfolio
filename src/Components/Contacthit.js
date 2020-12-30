@@ -9,10 +9,10 @@ export default class Contacthit extends Component {
                     <h1 className="hittext">HIT ME UP...</h1>
                     <div className="media">
                 <ul>
-                    <li><a href="https://instagram.com/venky__creations/" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i> </a></li>
-                    <li><a href="https://twitter.com/venki2venky1" target="_blank"><i className="fa fa-twitter" ria-hidden="true"></i> </a></li>
-                    <li><a href="https://github.com/venkateshr407" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> </a></li>
-                    <li><a href="https://www.linkedin.com/in/venkatesh-r-0571a4178" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                    <li><a href="https://instagram.com/venky__creations/" target="_blank" rel="noopener noreferrer" ><i className="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                    <li><a href="https://twitter.com/venki2venky1" target="_blank" rel="noopener noreferrer" ><i className="fa fa-twitter" ria-hidden="true"></i> </a></li>
+                    <li><a href="https://github.com/venkateshr407" target="_blank" rel="noopener noreferrer" ><i className="fa fa-github" aria-hidden="true"></i> </a></li>
+                    <li><a href="https://www.linkedin.com/in/venkatesh-r-0571a4178" target="_blank" rel="noopener noreferrer" ><i className="fa fa-linkedin" aria-hidden="true"></i> </a></li>
                 </ul>
             </div>
           <div className="hitmail">

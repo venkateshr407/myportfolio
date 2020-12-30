@@ -138,29 +138,29 @@ at a professional level.</h3></div>
                                 <div className="carousel-caption text-left">
                                     <h3>Travel Photography</h3>
 
-                                    <p>for more visit :  <a className="btn btn-outline-primary" target="_blank" href="/gallery" role="button">Gallery</a></p>
+                                    <p>for more visit :  <a className="btn btn-outline-primary"  href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                                 <div className="carousel-item">
                                 <img className="d-block w-100 h-75" src={theImg1} alt="Second slide"/>
                                 <div className="carousel-caption text-left">
                                     <h3>Marketing Photography</h3>
-                                    <p>for more visit :  <a className="btn btn-outline-danger" target="_blank" href="/gallery" role="button">Gallery</a></p>
+                                    <p>for more visit :  <a className="btn btn-outline-danger"  href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                                 <div className="carousel-item">
                                 <img className="d-block w-100 h-75" src={theImg2} alt="Third slide"/>
                                 <div className="carousel-caption text-left">
                                     <h3>Landscape Photography</h3>
-                                    <p>for more visit :  <a className="btn btn-outline-warning" target="_blank" href="/gallery" role="button">Gallery</a></p>
+                                    <p>for more visit :  <a className="btn btn-outline-warning"  href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                             </div>
-                            <a className="carousel-control-prev" href="#carouselExampleControls" target="_blank" role="button" data-slide="prev">
+                            <a className="carousel-control-prev" href="#carouselExampleControls"  role="button" data-slide="prev">
                                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span className="sr-only">Previous</span>
                             </a>
-                            <a className="carousel-control-next" href="#carouselExampleControls" target="_blank" role="button" data-slide="next">
+                            <a className="carousel-control-next" href="#carouselExampleControls"  role="button" data-slide="next">
                                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span className="sr-only">Next</span>
                             </a>
