@@ -6,6 +6,15 @@ import theImg3 from '../images/travel.jpg';
 import Typed from 'react-typed';
 import CButton from '../component/clickable-button';
 import Img from 'react-image';
+import Badge from '../Components/Badge';
+import badge2019 from '../images/hacktoberfest01.png';
+import badge2020 from '../images/hacktoberfestbadge2.png';
+import badge from '../Components/badge.module.css';
+import Project from '../Components/Project';
+import vpix from '../images/vpix.png';
+import vkeep from '../images/vkeep.png';
+
+
 
 export default class Home extends Component {
     render() {
@@ -15,7 +24,7 @@ export default class Home extends Component {
                     <div className="landing-hero">
  
                         <div className="naming">
-                            <h1 className="textheading">Hello World, I'm <span className="inlinetext">Venkatesh.R</span></h1>
+                            <h1 className="textheading">Hey, I'm <span className="inlinetext">Venkatesh.R</span></h1>
                                 <p className='subtitle'>
                                     <Typed
                                         strings={['Student','Landscape Photographer','Web Developer']}
@@ -63,6 +72,7 @@ at a professional level.</h3></div>
                                     <li>Javascript</li>
                                     <li>React</li>
                                     <li>GIT</li>
+                                    <li>Jira Tool's</li>
                                 </ul>
                             </div>
                             <div className="grid-skill">
@@ -90,9 +100,6 @@ at a professional level.</h3></div>
                         </div>
                         </section>
                     </div>
-
-                    
-    
                     <section className="grid-combo">
                     <div className="skills" data-aos="fade-up">
                         <h2 className="header2"><i className="fa fa-graduation-cap"></i>  Education</h2>
@@ -109,15 +116,18 @@ at a professional level.</h3></div>
                         <h2 className="header22"><i className="fa fa-laptop"></i> Achievement's</h2>
                         <section className="achieved">
                                 <ul className="listed">
-                                    <li><p>Participated in <span className="inline">#Hacktoberfest 2019</span> and won a <span className="inline">swag's</span> for submitting four pull request's and contributing to open source <span className="inline">github</span> project's.</p></li>
+                                    <li><p>Participated in <span className="inline">#Hacktoberfest 2019, 2020 </span> and won a <span className="inline">swag's</span> for submitting four pull request's and contributing to open source <span className="inline">github</span> project's.</p></li>
                                     <li><p>Workshop on <span className="inline">Google Cloud study jam (GCP Essential) </span>at RNSIT, Bangalore.</p> </li>
                                     <li><p>Landscape photo is commented by <span className="inline">BBCEarth </span>social media.</p></li>
                                 </ul>
                         </section>
                     </div>
                     </section>
+                    {this.renderBadge()}
+                    {this.renderProject()}
+
                     <div className="waytogallery" data-aos="fade-up"><h2 className="header222"><i className="fa fa-camera"></i> Photography</h2>
-                    <p>categorie's of Photography !</p>
+                        <p>categorie's of Photography !</p>
                     </div>
                     <section className="wayforgall">
                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
@@ -128,44 +138,66 @@ at a professional level.</h3></div>
                                 <div className="carousel-caption text-left">
                                     <h3>Travel Photography</h3>
 
-                                    <p>for more visit :  <a className="btn btn-outline-primary" href="/gallery" role="button">Gallery</a></p>
+                                    <p>for more visit :  <a className="btn btn-outline-primary" target="_blank" href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                                 <div className="carousel-item">
                                 <img className="d-block w-100 h-75" src={theImg1} alt="Second slide"/>
                                 <div className="carousel-caption text-left">
                                     <h3>Marketing Photography</h3>
-                                    <p>for more visit :  <a className="btn btn-outline-danger" href="/gallery" role="button">Gallery</a></p>
+                                    <p>for more visit :  <a className="btn btn-outline-danger" target="_blank" href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                                 <div className="carousel-item">
                                 <img className="d-block w-100 h-75" src={theImg2} alt="Third slide"/>
                                 <div className="carousel-caption text-left">
                                     <h3>Landscape Photography</h3>
-                                    <p>for more visit :  <a className="btn btn-outline-warning" href="/gallery" role="button">Gallery</a></p>
+                                    <p>for more visit :  <a className="btn btn-outline-warning" target="_blank" href="/gallery" role="button">Gallery</a></p>
                                 </div>
                                 </div>
                             </div>
-                            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <a className="carousel-control-prev" href="#carouselExampleControls" target="_blank" role="button" data-slide="prev">
                                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span className="sr-only">Previous</span>
                             </a>
-                            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <a className="carousel-control-next" href="#carouselExampleControls" target="_blank" role="button" data-slide="next">
                                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span className="sr-only">Next</span>
                             </a>
                             </div>
                     </section>
-                   
-                  
- 
-    
+                </div>
             </div>
-            </div>
-            </div>
-            
-            
-            
+        </div>
         )
     }
+    renderBadge = () => {
+        return (
+            <div className="Achievements" data-aos="fade-up">
+                <h2 className="header22"><i className="fa fa-certificate"></i> Badge's</h2>
+            <div className={badge.main}>
+                <Badge badges={badge2019} title="Hacktoberfest 2019 Badge"/>
+                <Badge badges={badge2020} title="Hacktoberfest 2020 Badge"/>
+            </div>
+        </div>
+        )
+    }
+    renderProject = () => {
+        return (
+            <div className="Achievements" data-aos="fade-up">
+                <h2 className="header22"><i className="fa fa-terminal"></i> Project</h2>
+            <div className={badge.main}>
+                <Project 
+                    BGImage={vpix} 
+                    link="https://vpix.netlify.app/"
+                    title="Vpix is a website dedicated to sharing stock photography under the Unsplash API ."/>
+                <Project 
+                    BGImage={vkeep} 
+                    link="https://vkeep.herokuapp.com/"
+                    title="Vkeep To-Do app, built in reactJS"/>
+            </div>
+        </div>
+        )
+    }
+    
 }
