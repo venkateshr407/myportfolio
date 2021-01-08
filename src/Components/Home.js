@@ -13,6 +13,8 @@ import badge from '../Components/badge.module.css';
 import Project from '../Components/Project';
 import vpix from '../images/vpix.png';
 import vkeep from '../images/vkeep.png';
+import giphy from '../images/giphy.png';
+
 
 
 
@@ -71,8 +73,10 @@ at a professional level.</h3></div>
                                     <li>CSS</li>
                                     <li>Javascript</li>
                                     <li>React</li>
-                                    <li>GIT</li>
-                                    <li>Jira Tool's</li>
+                                    <li>Bootstrap</li>
+                                    <li>Styled-Components</li>
+                                    <li>Github</li>
+                                    <li>Jira</li>
                                 </ul>
                             </div>
                             <div className="grid-skill">
@@ -94,8 +98,7 @@ at a professional level.</h3></div>
                         <div className="grid-skill">
                             <h3>TRAING COURSE</h3><br/>
                             <ul className="skillset-list">
-                                <li>Web development</li>
-                                <li>Java full stack</li>
+                                <li>Frontend Web Development Programme (Access)</li>
                             </ul>
                         </div>
                         </section>
@@ -195,6 +198,10 @@ at a professional level.</h3></div>
                     BGImage={vkeep} 
                     link="https://vkeep.herokuapp.com/"
                     title="Vkeep To-Do app, built in reactJS"/>
+                    <Project 
+                    BGImage={giphy} 
+                    link="https://giphyvolopay.herokuapp.com/"
+                    title="Real time gif's, using GIPHY API"/>
             </div>
         </div>
         )
