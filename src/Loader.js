@@ -7,11 +7,7 @@ function Loader() {
         <span className="loader-inner"></span>'
       </span>
       <br/>
-    </div>
-  
-      
-      
-   
+    </div>  
   );
 }
 
