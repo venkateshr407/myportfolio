@@ -2,7 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## My Portfolio
 
-## Deployed with heroku.app -->  https://venkycreations.netlify.app/
+## Deployed with Netlify -->  https://venkycreations.netlify.app/
+## PWA service 
 
 ## Good to see you here !
 ## happy coding 
