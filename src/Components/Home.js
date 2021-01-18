@@ -26,7 +26,7 @@ export default class Home extends Component {
                     <div className="landing-hero">
  
                         <div className="naming">
-                            <h1 className="textheading">Hey, I'm <span className="inlinetext">Venkatesh.R</span></h1>
+                            <h1 className="textheading">Hey, I'm <span className="inlinetext">Venkatesh. R</span></h1>
                                 <p className='subtitle'>
                                     <Typed
                                         strings={['Student','Landscape Photographer','Web Developer']}
@@ -48,7 +48,7 @@ export default class Home extends Component {
                    <Img src={theImg} className="venky"/>
                 
                 
-                        <p>My name is <span className="inlinetext">Venkatesh.R</span> ,
+                        <p>My name is <span className="inlinetext">Venkatesh. R</span> ,
                              I describe my self as someone who's persistant, a <span className="inlinetext">quick learner</span> and <span className="inlinetext">loves problem solving</span> by using simple and scalable solutions.</p>
                    </section>
                 <section className="doing" data-aos="fade-up">
@@ -96,7 +96,7 @@ at a professional level.</h3></div>
                             </ul>
                         </div>
                         <div className="grid-skill">
-                            <h3>TRAING COURSE</h3><br/>
+                            <h3>TECH COURSE</h3><br/>
                             <ul className="skillset-list">
                                 <li>Frontend Web Development Programme (Access)</li>
                             </ul>

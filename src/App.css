@@ -25,6 +25,54 @@ body {
     justify-content: center;
     margin: 0 auto;
 }
+/* Loader  */
+.loaderNew {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loaderNew .dots {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    display: inline-block;
+    background-color: #2e0079;
+    transform: scale(0.2);
+    animation: anim 1.2s infinite;
+}
+.dots:nth-child(2) {
+    animation-delay: 0.2s;
+    background-color: #41008b;
+}
+.dots:nth-child(3) {
+    animation-delay: 0.4s;
+    background-color: #32025f;
+}
+.dots:nth-child(4) {
+    animation-delay: 0.8s;
+    background-color: #280181;
+}
+.dots:nth-child(5) {
+    animation-delay: 1s;
+    background-color: #25008a;
+}
+.dots:nth-child(6) {
+    animation-delay: 1.2s;
+    background-color: #170d27;
+}
+
+@keyframes anim {
+    0%,
+    100% {
+        transform: scale(0.2s);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
+
 .load-wrapper {
     width: 100%;
     height: 100%;

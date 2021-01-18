@@ -20,14 +20,14 @@ class App extends Component{
   sleep = milliseconds => {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
   };
-  wait = async (milliseconds = 5000) => {
+  wait = async (milliseconds = 7000) => {
     await this.sleep(milliseconds);
     this.setState({
       loading: false
     });
   };
   componentDidMount() {
-    this.wait(5000);
+    this.wait(7000);
   }
 
   render(){
