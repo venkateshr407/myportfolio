@@ -33,8 +33,8 @@ body {
     transform: translate(-50%, -50%);
 }
 .loaderNew .dots {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     margin: 10px;
     display: inline-block;
@@ -1120,12 +1120,18 @@ a:hover {
     main .media li {
         left: 155px;
     }
+    .skillset-list li {
+        font-size: 0.7em;
+    }
 }
 
 @media screen and (min-width: 708px) {
     * {
         margin: 0;
         padding: 0%;
+    }
+    .skillset-list li {
+        font-size: 0.7em;
     }
     .naming {
         margin-left: 4rem;
@@ -1533,6 +1539,9 @@ a:hover {
         margin: -5%;
         left: -9px;
     }
+    .skillset-list li {
+        font-size: 0.7em;
+    }
 }
 @media only screen and (min-width: 414px) and (max-width: 551px) {
     main .site-title h1 {
@@ -1541,6 +1550,9 @@ a:hover {
     main .media li {
         left: 20px;
     }
+    .skillset-list li {
+        font-size: 0.7em;
+    }
 }
 @media only screen and (min-width: 553px) and (max-width: 750px) {
     main .site-title h1 {
@@ -1548,5 +1560,8 @@ a:hover {
     }
     main .media li {
         left: 120px;
+    }
+    .skillset-list li {
+        font-size: 0.7em;
     }
 }

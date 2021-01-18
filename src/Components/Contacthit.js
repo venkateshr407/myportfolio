@@ -22,7 +22,7 @@ export default class Contacthit extends Component {
                 <h5 className="header5"><i className="fa fa-map-marker"></i> Ramanagara, Karnataka, India 562159</h5>
                     <div className="madewith">
                         <h6>Made with <span className='ec ec-sparkling-heart'></span>
-                                 by Venkatesh </h6>
+                                    by Venkatesh </h6>
                     </div>
              </div>
         </div>
