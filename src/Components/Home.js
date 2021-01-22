@@ -14,6 +14,8 @@ import Project from '../Components/Project';
 import vpix from '../images/vpix.png';
 import vkeep from '../images/vkeep.png';
 import giphy from '../images/giphy.png';
+import countries from '../images/countries.png';
+
 
 
 
@@ -193,15 +195,23 @@ at a professional level.</h3></div>
                 <Project 
                     BGImage={vpix} 
                     link="https://vpix.netlify.app/"
-                    title="Vpix is a website dedicated to sharing stock photography under the Unsplash API ."/>
+                    title="Vpix is a website dedicated to sharing stock photography under the Unsplash API ."
+                />
                 <Project 
                     BGImage={vkeep} 
                     link="https://vkeep.herokuapp.com/"
-                    title="Vkeep To-Do app, built in reactJS"/>
-                    <Project 
+                    title="Vkeep To-Do app, built in reactJS"
+                />
+                <Project 
                     BGImage={giphy} 
                     link="https://giphyvolopay.herokuapp.com/"
-                    title="Real time gif's, using GIPHY API"/>
+                    title="Real time gif's, using GIPHY API"
+                />
+                <Project 
+                    BGImage={countries} 
+                    link="https://countries-web.herokuapp.com/"
+                    title="Real time Countries data, React Hooks"
+                />
             </div>
         </div>
         )
