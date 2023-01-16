@@ -234,6 +234,12 @@ body {
     grid-template-rows: auto;
 }
 
+.company-logo{
+    width: 100px;
+    height: auto;
+    filter: invert(0.7);
+}
+
 /* mobile first approch */
 .intropara {
     font-size: 16px;
