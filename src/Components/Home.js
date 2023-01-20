@@ -15,17 +15,20 @@ import { PhotographyComp } from "../component/PhotographyComp";
 import { EducationComp } from "../component/EducationComp";
 import { ExperienceComp } from "../component/ExperienceComp";
 
-export default class Home extends Component {
+
+ class Home extends Component {
+ 
   render() {
+    console.log(this?.props, 'pallavi')
     return (
       <div className="all">
         <div className="display">
-          <LandingComp  data={this.props.data}/>
+          <LandingComp  data={this.props?.data}/>
           <div className="about" data-aos="fade-up">
             <h2 className="header2">About me</h2>
             <AboutmeComp />
-            <SkillsetComp data={this.props.data} />
-            <ExperienceComp  data={this.props.data}/>
+            <SkillsetComp data={this.props?.data} />
+            <ExperienceComp  data={this.props?.data}/>
             <EducationComp />
             {this.renderBadge()}
             {this.renderProject()}
@@ -80,3 +83,6 @@ export default class Home extends Component {
     );
   };
 }
+
+
+export default Home

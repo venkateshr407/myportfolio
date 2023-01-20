@@ -1,5 +1,7 @@
 import React from "react";
 import moment from "moment";
+import NoImage from '../images/no-company.png';
+
 
 export const ExperienceComp = (props) => {
   const handleOpenSite = (link) => {
@@ -21,7 +23,7 @@ export const ExperienceComp = (props) => {
             return (
               <div className="d-flex align-items-center " key={index}>
                 <img
-                  src={ele?.logo}
+                  src={ele?.logo || NoImage}
                   className="company-logo cursor-pointer"
                   alt={ele?.companyName || ""}
                   onClick={() => handleOpenSite(ele?.companySite)}
@@ -37,7 +39,7 @@ export const ExperienceComp = (props) => {
                         ? "Present"
                         : moment(ele?.endDate).format("MMM YYYY")},
                     </span>
-                    <span>{' '}{ele?.totalExp}</span>
+                    <span  className="academy">{' '}{ele?.totalExp}</span>
                   </p>
                 </section>
               </div>

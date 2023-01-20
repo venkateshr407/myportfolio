@@ -1,0 +1,61 @@
+.featured-wrapper {
+  width: 100%;
+}
+
+.f-w-lf {
+  position: relative;
+}
+
+.f-w-lf .f-c-lfI {
+  position: relative;
+}
+.f-w-lf .f-c-lfI img {
+  border-radius: 1.25rem;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.6;
+  transition: 0.2s ease;
+}
+
+.f-w-lf .f-c-lfI img:hover {
+  opacity: 1;
+}
+
+.f-w-lf .f-c-lfC {
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+}
+
+.f-c-rfC {
+  width: 100%;
+  color: #b39bf6;
+  font-size: 3em;
+  font-weight: 900;
+  word-wrap: break-word !important;
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+.verifed-icon {
+  width: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .f-c-rfC {
+    font-size: 1em;
+    justify-content: flex-start;
+    color: white;
+  }
+
+  .verifed-icon {
+    width: 20px;
+  }
+}

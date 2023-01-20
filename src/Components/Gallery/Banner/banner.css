@@ -1,0 +1,100 @@
+.banner-outter-lf {
+  position: relative !important;
+}
+.banner-inner-lf {
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.over-title {
+  position: absolute;
+  width: 100%;
+  color: #b39bf6;
+  font-size: 9em;
+  font-weight: 900;
+  word-wrap: break-word !important;
+  text-transform: uppercase;
+  opacity: 0.3;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+.banner-inner-lfp {
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1em;
+}
+.banner-inner-lfp {
+}
+
+.banner-inner-rt {
+  height: 100vh;
+}
+.banner-inner-rt img {
+  background-repeat: no-repeat;
+  background-position: center !important;
+  object-position: center;
+  object-fit: cover;
+  height: 100%;
+  opacity: 0.6;
+}
+.heading_h2 {
+  font-size: 58px;
+  line-height: 100%;
+}
+.mobile-banner-wrapper {
+  position: relative;
+}
+.mobile-banner-wrapper .m-banner-contents {
+  height: 90vh;
+  color: white;
+  font-size: 16px;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  background-position: top;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.mobile-banner-wrapper .m-banner-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+.over-title {
+  font-size: 5em;
+}
+.banner-inner-lf {
+  filter: grayscale(50%) !important;
+}
+
+.banner-inner-lfp {
+  width: 100%;
+  max-width: 21em;
+}
+.banner-inner-lfp p {
+  font-size: 0.8em;
+}
+.heading_h2 {
+  font-size: 2.5em;
+}
+.banner-inner-lf {
+  height: auto !important;
+}
+}

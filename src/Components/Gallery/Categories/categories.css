@@ -1,0 +1,31 @@
+.c-wrapper{
+    width: 100%;
+}
+.c-wrapper .c-w-rt{
+    position: relative;
+}
+
+
+.c-wrapper .c-w-rt .c-inner-rt{
+    position: relative;
+    width: 50%;
+}
+
+.c-wrapper .c-o-rt{
+    position: relative;
+}
+.c-wrapper .c-w-rt .c-contents-rt{
+    position: absolute;
+    top: 0;
+}
+
+.c-wrapper .c-w-rt .c-inner-rt img{
+    border-radius: 1.25rem;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    opacity: 0.6;
+    transition: 0.2s ease;
+}
+
