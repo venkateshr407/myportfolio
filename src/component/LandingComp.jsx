@@ -3,7 +3,6 @@ import Typed from "react-typed";
 import CButton from "../component/clickable-button";
 
 const LandingComp = (props) => {
-  console.log(props?.data?.types, 'pal')
   let types = props?.data?.types?.flatMap((ele) => {
     let arr = [];
     arr.push(ele?.type);
@@ -11,7 +10,6 @@ const LandingComp = (props) => {
   })
 
 
-  console.log(types, 'types')
   return (
     <div className="landing-hero">
       <div className="naming">

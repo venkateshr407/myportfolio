@@ -26,11 +26,17 @@ body {
     margin: 0 auto;
 }
 /* Loader  */
+
+.loader-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
 .loaderNew {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+  
 }
 .loaderNew .dots {
     width: 20px;

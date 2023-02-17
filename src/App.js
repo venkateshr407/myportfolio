@@ -19,8 +19,6 @@ const PostParent = lazy(() => import("./Components/PostParent"));
 class App extends Component {
   render() {
     if (this.props.isLoading) return <Loader />;
-
-    console.log(this.props, "props");
     return (
       <Router>
         <Nav1 />

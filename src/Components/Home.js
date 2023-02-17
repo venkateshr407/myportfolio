@@ -19,7 +19,7 @@ import { ExperienceComp } from "../component/ExperienceComp";
  class Home extends Component {
  
   render() {
-    console.log(this?.props, 'pallavi')
+    console.log('pallavi')
     return (
       <div className="all">
         <div className="display">
